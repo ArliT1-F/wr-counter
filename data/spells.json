@@ -1,0 +1,16 @@
+[
+  { "id": "flash", "name": "Flash", "icon": "flash.png",
+    "description": "Teleport a short distance toward your cursor." },
+  { "id": "ignite", "name": "Ignite", "icon": "ignite.png",
+    "description": "Sets an enemy champion on fire, dealing true damage over time and applying Grievous Wounds." },
+  { "id": "ghost", "name": "Ghost", "icon": "ghost.png",
+    "description": "Gain a large burst of movement speed that decays over time; takedowns extend its duration." },
+  { "id": "heal", "name": "Heal", "icon": "heal.png",
+    "description": "Restores health to you and a nearby ally and grants a short burst of movement speed." },
+  { "id": "barrier", "name": "Barrier", "icon": "barrier.png",
+    "description": "Shields you from damage for a short time." },
+  { "id": "exhaust", "name": "Exhaust", "icon": "exhaust.png",
+    "description": "Exhausts an enemy champion, reducing their movement speed and damage dealt." },
+  { "id": "smite", "name": "Smite", "icon": "smite.png",
+    "description": "Deals true damage to a monster or minion; upgrades to Champion Smite after consuming charges." }
+]

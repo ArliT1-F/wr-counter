@@ -1,0 +1,5153 @@
+[
+  {
+    "id": "darius-vs-sett",
+    "playerChampion": "darius",
+    "enemyChampion": "sett",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Darius wins the long bleed-out fight; Sett wins short trades with Haymaker. Whiff your E first and Sett owns the lane.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Thorns cuts Pit Grit regeneration and reflects his punch combo."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "Sett's damage is almost entirely auto-attack based outside Haymaker."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Armor shred stacks perfectly with Hemorrhage bleed and lets you run him down after Facebreaker."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "steraks-gage",
+          "reason": "His Haymaker center deals true damage \u2014 the Lifeline shield buys far less time than armor does."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating absorbs the first two hits of his Knuckle Down combo, letting you stack bleed before he can answer."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ghost"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts Pit Grit regeneration during the all-in \u2014 Sett lives or dies on out-healing your bleed."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Your passive bleed outruns his passive at level 1. Auto-Q-auto and chase \u2014 he cannot trade back through five stacks."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "even",
+        "detail": "He has the full punch-haymaker combo. Bait Haymaker with a short trade, walk out of the center, then re-engage."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "enemy",
+        "detail": "The Show Stopper turns your own tankiness against you near his tower. Keep the wave on your side."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Bramble + Steelcaps make his punch combo heal you more than it hurts. Force extended fights in the long lane."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Haymaker (W)",
+        "detail": "The center line deals true damage and shields him. Sidestep perpendicular \u2014 never walk straight back."
+      },
+      {
+        "type": "punish",
+        "ability": "Facebreaker (E) miss",
+        "detail": "16s early cooldown with no escape after. Ghost at him and stack Hemorrhage \u2014 he has no way out."
+      },
+      {
+        "type": "counter",
+        "ability": "Knuckle Down (Q)",
+        "detail": "He only gets the movement speed toward you. Apprehend him mid-run to cancel his engage angle."
+      }
+    ],
+    "waveManagement": "Freeze just outside your tower. Sett must walk into the open to punch, and a Facebreaker he uses to farm is a free all-in for you. If he crashes the wave, thin it with Q and re-freeze \u2014 never let him reset the lane near his tower where The Show Stopper can throw you under it.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "sett-vs-darius",
+    "playerChampion": "sett",
+    "enemyChampion": "darius",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Sett wins every short trade; Darius wins if he reaches 5 bleed stacks. Punch, haymaker, leave \u2014 never let the fight last.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Thorns applies Grievous Wounds through his Decimate heal and passive bleed sustain."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "Almost all of his damage is physical autos and abilities \u2014 steelcaps blunt the bleed too."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade lets you unload a full Knuckle Down combo and disengage before five stacks land."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Extended on-hit fights are exactly what Darius wants \u2014 he stacks Hemorrhage while you auto."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "brutal",
+        "legend-tenacity",
+        "second-wind",
+        "bone-plating"
+      ],
+      "reason": "Grasp trades are win-and-leave; Conqueror keeps you in the fight just long enough for Darius to hit five stacks."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite is mandatory \u2014 it cuts Decimate healing and his out-of-combat regeneration between trades."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Level 1",
+        "advantage": "player",
+        "detail": "Level 1 he only has Decimate. Walk up, left-right punch combo, leave before bleed stacks."
+      },
+      {
+        "phase": "Levels 2-4",
+        "advantage": "even",
+        "detail": "Once he has Apprehend the lane is about baiting the pull. Stand behind your melee minions and punish its 20s cooldown."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "The Show Stopper can drag him under your tower after he pulls you. Fight near your turret and ult him into it."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "enemy",
+        "detail": "Black Cleaver shreds your armor while his bleed stacks up. End the lane before then \u2014 group for objectives."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Decimate (Q)",
+        "description": "",
+        "detail": "The blade sweet spot heals him heavily. Walk INTO him \u2014 the handle deals less damage and no heal."
+      },
+      {
+        "type": "punish",
+        "ability": "Apprehend (E) down",
+        "detail": "20s+ cooldown early with no escape tool left. All-in with Knuckle Down the moment it misses."
+      },
+      {
+        "type": "counter",
+        "ability": "Noxian Guillotine (R)",
+        "detail": "Haymaker at the moment he lands \u2014 the shield eats the execute threshold and the true damage center answers back."
+      }
+    ],
+    "waveManagement": "Slow push and bounce the wave into his tower, then walk away. A stacked wave forces him to choose between bleeding stacks on minions or health on you. Never freeze in the middle of the lane \u2014 he runs you down with Ghost in the long lane.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "darius-vs-garen",
+    "playerChampion": "darius",
+    "enemyChampion": "garen",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Darius hard-outsustains Garen in extended fights, but Garen's silence can stop your Q heal. Save Apprehend for after he spins.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Grievous Wounds halves Perseverance regeneration between trades."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Shreds the armor Courage passively stacks up; movement speed keeps you on him after Decisive Strike."
+        },
+        {
+          "itemId": "dead-mans-plate",
+          "timing": "second item",
+          "reason": "Match his movement speed bursts so he can never disengage to heal."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "warmogs-armor",
+          "reason": "Trading passive regeneration for a passive-sustain item plays into his attrition game instead of ending fights."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "demolish"
+      ],
+      "reason": "Demolish punishes every recall he takes \u2014 he cannot stop your push once he walks away to heal."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ghost"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost nullifies Decisive Strike's movement speed so he can never trade and run. Keep Ghost for after the silence ends."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Your bleed beats his passive before it scales. Q through the wave to hit him and shove at the same time."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "even",
+        "detail": "Silence-Q-spin-disengage is his whole lane. Don't Q before he silences \u2014 auto-W first, Q after."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Demacian Justice executes through your heal. Keep a Decimate charge for the moment he Rs and heal AFTER it lands."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Black Cleaver + bleed means he cannot tank you. Freeze and dare him to walk up for CS."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Judgment (E)",
+        "detail": "His spin deals most of his damage and shreds armor. Walk out of it \u2014 it does not follow through dashes, so Apprehend him out of it."
+      },
+      {
+        "type": "punish",
+        "ability": "Decisive Strike (Q) used",
+        "detail": "He has no escape and no silence for 8s. All-in immediately \u2014 he's a punching bag without it."
+      },
+      {
+        "type": "counter",
+        "ability": "Courage (W)",
+        "detail": "The damage reduction window is short. Bait it with W, back off, then pull him when it expires."
+      }
+    ],
+    "waveManagement": "Keep the wave on your side and freeze. Garen must walk into your Apprehend range to farm, and his only escape is running \u2014 exactly what Hemorrhage punishes. Crash only when you can take plates with Demolish.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "garen-vs-darius",
+    "playerChampion": "garen",
+    "enemyChampion": "darius",
+    "role": "top",
+    "difficulty": "hard",
+    "summary": "Garen wins short silence-spin trades and loses long ones. Never let him reach 5 bleed stacks \u2014 Q him and leave.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Grievous Wounds is essential against Decimate healing and Hemorrhage trade-ins."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "Bleed, autos and Noxian Guillotine's follow-up are all physical."
+        },
+        {
+          "itemId": "dead-mans-plate",
+          "timing": "first core item",
+          "reason": "Movement speed to disengage before 5 stacks \u2014 the whole matchup lives and dies on leaving in time."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "trinity-force",
+          "reason": "Extended Spellblade fights keep you in range to stack his passive. Burst-and-leave is the win condition."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "demolish"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "brutal",
+        "legend-tenacity",
+        "second-wind",
+        "bone-plating"
+      ],
+      "reason": "Grasp + Bone Plating wins the one-second trades this lane allows. Conqueror tempts you into the long fight Darius loves."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost is your escape hatch after a silence trade \u2014 walk away from the pull before Apprehend comes back up."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Level 1",
+        "advantage": "even",
+        "detail": "Silence-Q and walk away before bleed builds. Never auto him more than twice."
+      },
+      {
+        "phase": "Levels 2-4",
+        "advantage": "enemy",
+        "detail": "Apprehend cancels your retreat. Hold Decisive Strike for AFTER he pulls \u2014 silence him mid-combo and disengage."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Courage's damage reduction absorbs his Guillotine burst. W as he ults, then finish with Demacian Justice."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "enemy",
+        "detail": "Black Cleaver erases your passive armor. Stop matching him in the side lane and group."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Decimate (Q)",
+        "detail": "The blade heals him for every champion hit. Stand inside the handle circle when you trade \u2014 less damage, no heal."
+      },
+      {
+        "type": "punish",
+        "ability": "Apprehend (E) miss",
+        "detail": "21s cooldown at rank 1. That's three free silence-spin trades. Call it out and play forward."
+      },
+      {
+        "type": "counter",
+        "ability": "Hemorrhage stacks",
+        "detail": "At 3 stacks disengage immediately with Decisive Strike's speed. Greeding for 'one more hit' is how this lane is lost."
+      }
+    ],
+    "waveManagement": "Let the wave come to you and keep it thin near your tower. If he freezes, break it with Judgment and reset \u2014 you cannot walk up into a freeze vs Apprehend. Only hard-shove when he's on the map elsewhere to take plates with Demolish.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "darius-vs-camille",
+    "playerChampion": "darius",
+    "enemyChampion": "camille",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Darius wins any fight without her passive shield. Save Apprehend for Hookshot \u2014 pull her out of the wall dive and she's stranded.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Thorns trades back through her auto-reset combo and cuts Tactical Sweep healing."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "Precision Protocol and her autos are physical \u2014 steelcaps blunt the true damage conversion's window."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Movement speed and armor shred let you run her down after her shield expires."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "steraks-gage",
+          "reason": "Precision Protocol's true damage at rank 2 ignores the shield's effective value. Build raw armor and health instead."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating ruins her one-trade-and-leave pattern \u2014 she needs two rotations to break it, and by then bleed is stacked."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ghost"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost matches her Hookshot mobility. Pop it as she wall-dives so you can fight the stun duration out and still catch her escape."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Her Adaptive Defenses shield is the only thing keeping her alive. Auto-W-Q after the shield drops and chase the bleed."
+      },
+      {
+        "phase": "Level 3",
+        "advantage": "even",
+        "detail": "Hookshot exists now. Hold Apprehend \u2014 if she grapples, pull her off the wall mid-dive and all-in."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Hextech Ultimatum traps you, but she just locked herself in with Darius. Ghost inside the zone and keep stacking."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Bramble + Steelcaps + Cleaver: she can't burst through your armor window and can't escape the slow."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Tactical Sweep (W)",
+        "detail": "The outer edge heals her and slows. Walk INTO her \u2014 inside the sweep deals less and heals nothing."
+      },
+      {
+        "type": "punish",
+        "ability": "Hookshot (E) miss",
+        "detail": "16s cooldown with no dash left. This is the window \u2014 Ghost, Apprehend, five stacks, Guillotine."
+      },
+      {
+        "type": "counter",
+        "ability": "Precision Protocol (Q)",
+        "detail": "The second cast is true damage after a delay. Burst her BEFORE the second Q \u2014 trade in gaps, not in her rhythm."
+      }
+    ],
+    "waveManagement": "Freeze near your tower \u2014 Camille needs a long lane or a wall to fight properly, and a tower-side freeze denies both. Ward the river: her Hookshot gank angles are her win condition when she can't lane you.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "camille-vs-darius",
+    "playerChampion": "camille",
+    "enemyChampion": "darius",
+    "role": "top",
+    "difficulty": "hard",
+    "summary": "Camille must out-trade through Adaptive Defenses and leave before 5 bleed stacks. Extended fights are unwinnable \u2014 precision, not power.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "first back",
+          "reason": "Bleed and Decimate are physical \u2014 armor is worth more than damage early."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade on Precision Protocol lets you unload and wall-dive away before Hemorrhage stacks."
+        },
+        {
+          "itemId": "deaths-dance",
+          "timing": "second item",
+          "reason": "The bleed passive spreads his burst out \u2014 and takedowns cleanse it when you outplay the Guillotine."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "On-hit sustained fights are his domain. You need burst-and-leave, not attack speed."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "brutal",
+        "legend-tenacity",
+        "second-wind",
+        "bone-plating"
+      ],
+      "reason": "Grasp + the passive shield makes each short trade unanswerable. Conqueror keeps you in just long enough for five stacks."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts his Decimate heal during your all-in window. You only get one real all-in per recall \u2014 make it lethal."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Level 1",
+        "advantage": "even",
+        "detail": "Take Precision Protocol, proc Adaptive Defenses, walk out. Repeat only when the shield is up."
+      },
+      {
+        "phase": "Levels 2-4",
+        "advantage": "enemy",
+        "detail": "Apprehend cancels Hookshot. Never grapple from a wall he can see \u2014 dive from fog or after the pull is down."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Hextech Ultimatum can hold him under tower after he pulls you. Fight only on your tower's side of the lane."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "enemy",
+        "detail": "Once he stacks armor you can't kill him alone. Transition to teamfights and ult their carry instead."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Decimate (Q)",
+        "detail": "Dodge INTO him to avoid the blade heal. Your W's outer heal answers his poke \u2014 trade W for Q every time."
+      },
+      {
+        "type": "punish",
+        "ability": "Apprehend (E) down",
+        "detail": "21s early. This is your ONLY all-in window \u2014 Hookshot, second Q true damage, ignite, walk away."
+      },
+      {
+        "type": "counter",
+        "ability": "Noxian Guillotine (R)",
+        "detail": "He becomes unstoppable mid-cast, so don't Hookshot to cancel. Save Hookshot to wall-dive AFTER he lands, while he's locked in animation."
+      }
+    ],
+    "waveManagement": "Bounce waves into his tower and back off \u2014 his freeze is deadly and his Ghost runs you down the long lane. Take short trades at the bounce point only. Ward river; he has no escape and dies to ganks if he plays your side.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "garen-vs-malphite",
+    "playerChampion": "garen",
+    "enemyChampion": "malphite",
+    "role": "top",
+    "difficulty": "easy",
+    "summary": "Garen out-sustains Malphite and shreds his armor with Judgment. His only hope is poking with Seismic Shard \u2014 don't let it be free.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "mercury-treads",
+          "timing": "first back",
+          "reason": "Seismic Shard's movement speed steal and Ground Slam's attack speed slow both sting less with tenacity and MR."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade plus Judgment's armor shred melts through Granite Shield and stacked armor."
+        },
+        {
+          "itemId": "spirit-visage",
+          "timing": "second item",
+          "reason": "Amplifies Perseverance so he can never poke you out of lane."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "plated-steelcaps",
+          "reason": "His damage is almost entirely magic \u2014 steelcaps do nothing except slightly weaken his W autos."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "demolish"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "demolish"
+      ],
+      "reason": "Default page is already ideal \u2014 Demolish takes towers while he clears waves under them."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite is the only way to punch through Granite Shield regeneration windows; his ultimate disengages otherwise."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "He has only poke. Decisive Strike through the minion wave and spin \u2014 you win every extended contact."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "player",
+        "detail": "Ground Slam reduces attack speed, so open with Q silence before spinning. He can't trade while silenced."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Unstoppable Force + tower is lethal. Keep Courage for his combo and never dive past his tower line."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Trinity + Spirit Visage and he's a minion. Shove, take plates with Demolish, rotate to fights with your ultimate up."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Seismic Shard (Q)",
+        "detail": "It steals your movement speed \u2014 trade when it's down and you keep full chase potential."
+      },
+      {
+        "type": "punish",
+        "ability": "Thunderclap (W) used",
+        "detail": "His armor steroid and empowered autos drop for 12s. Spin on him immediately \u2014 this is his weakest window."
+      },
+      {
+        "type": "counter",
+        "ability": "Unstoppable Force (R)",
+        "detail": "Courage's tenacity and damage reduction shrug the follow-up. If he ults defensively, Demolish his tower on the spot."
+      }
+    ],
+    "waveManagement": "Slow push into his tower and roam. He clears waves fine but can't hold plates against Demolish. If he freezes, break it with Judgment \u2014 he cannot stop you from walking up once Silence is ready.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "malphite-vs-garen",
+    "playerChampion": "malphite",
+    "enemyChampion": "garen",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Malphite pokes with Seismic Shard and refuses to fight. You out-scale as a teamfight engine \u2014 survive, poke, ult for objectives.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Thorns + Grievous Wounds blunts Perseverance and his spin trades."
+        },
+        {
+          "itemId": "sunfire-aegis",
+          "timing": "first core item",
+          "reason": "Immolate damage stacks while he spins on you \u2014 he can't stand in your wave and trade."
+        },
+        {
+          "itemId": "thornmail",
+          "timing": "second item",
+          "reason": "His whole kit is auto-attack adjacent; reflect and wounds make his own spin hurt him."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "rabadons-deathcap",
+          "reason": "AP Malphite into Garen is a coinflip you don't need \u2014 tank wins the lane and the game."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aftershock",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "triumph"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "font-of-life",
+        "second-wind",
+        "overgrowth",
+        "demolish"
+      ],
+      "reason": "Grasp pokes with your empowered Thunderclap autos while Second Wind sustains his Decisive Strike trades. Demolish punishes every recall."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost lets you escape his silence-all-ins and reposition for Unstoppable Force flanks later."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "even",
+        "detail": "Seismic Shard poke each time he walks up for CS. Never auto-battle him \u2014 Q, back off, repeat."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Unstoppable Force combos with your tower. If he silences past your tower line, ult him under it."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "even",
+        "detail": "Sunfire lets you shove and leave \u2014 you don't beat him in the side lane, you beat his team."
+      },
+      {
+        "phase": "3 Items",
+        "advantage": "player",
+        "detail": "You're a teamfight monster; he's a side-laner. Group at every objective and ult their carry."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Decisive Strike (Q)",
+        "detail": "The silence is his engage. When it's down he's a sitting duck for Seismic Shard poke chains."
+      },
+      {
+        "type": "punish",
+        "ability": "Courage (W) expired",
+        "detail": "His damage reduction is gone for 20s+. Unstoppable Force him and dump your full combo under tower."
+      },
+      {
+        "type": "counter",
+        "ability": "Judgment (E)",
+        "detail": "Thunderclap's bonus armor and Granite Shield tank the spin. Stand in your wave and let Sunfire burn him back."
+      }
+    ],
+    "waveManagement": "Keep the wave near (not under) your tower and poke every CS. If he roams, hard-shove with Sunfire and take plates. Your job isn't killing Garen \u2014 it's arriving at dragon fights with Unstoppable Force up.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "sett-vs-aatrox",
+    "playerChampion": "sett",
+    "enemyChampion": "aatrox",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Sett wins inside Aatrox's Q sweet spots \u2014 walk in, don't walk back. Facebreaker stops his combo; Haymaker answers World Ender.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Grievous Wounds cuts Deathbringer Stance and World Ender healing \u2014 his entire identity."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "The Darkin Blade and his autos are physical."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade burst shortens trades to the length you win."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Long on-hit fights let him heal through your damage with sweet-spot knockups."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "reason": "Default page already sustains through his poke while stacking Conqueror in real all-ins."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite directly disables World Ender healing \u2014 the difference between killing him and watching him walk away at 10%."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "He has one Q cast. Walk through the first swing, punch twice, leave before cast two."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "even",
+        "detail": "Infernal Chains plus sweet spots is his full combo. Facebreaker him mid-Q cast \u2014 it cancels the swing rhythm."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "World Ender outruns you. Fight near tower and Haymaker the moment he pops it \u2014 true damage doesn't care about his healing."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Brick-and-mortar: Bramble + Steelcaps + Ignite up means he heals almost nothing. Force fights whenever his R is down."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "The Darkin Blade (Q)",
+        "detail": "The tip of each swing knocks up and deals bonus damage. Walk INTO him \u2014 the handle is safe and he can't reposition mid-swing."
+      },
+      {
+        "type": "punish",
+        "ability": "Umbral Dash (E) used",
+        "detail": "No dash for 9s and Q sweet spots become hard to land. Facebreaker him in the open and run him down."
+      },
+      {
+        "type": "counter",
+        "ability": "World Ender (R)",
+        "detail": "Disengage with The Show Stopper throw toward your tower, wait out the transform, then re-engage. Never fight full-duration R."
+      }
+    ],
+    "waveManagement": "Freeze near your tower. Aatrox needs the long lane to chain sweet spots; a short lane under your tower ruins his spacing. If he shoves with Q, thin the wave and re-freeze.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "aatrox-vs-sett",
+    "playerChampion": "aatrox",
+    "enemyChampion": "sett",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Aatrox pokes Sett with Q sweet spots and disengages. His Haymaker is the only danger \u2014 hold E to dash through it.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Thorns wounds him through Pit Grit regeneration during your Q trades."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Shredded armor makes each sweet spot bite harder; movement speed repositions for cast two and three."
+        },
+        {
+          "itemId": "deaths-dance",
+          "timing": "second item",
+          "reason": "Bleeds his burst out \u2014 and takedowns cleanse his Haymaker true damage follow-through."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "steraks-gage",
+          "reason": "Haymaker's center is true damage; the shield is at half value against exactly the damage that kills you."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "reason": "Default is ideal \u2014 Second Wind out-sustains his poke while Conqueror stacks through your Q rotations."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite counters Pit Grit when he tries to heal back after your full combo."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Q outranges everything he has. Cast one, fall back, cast two \u2014 he can't answer without Facebreaker."
+      },
+      {
+        "phase": "Level 3",
+        "advantage": "even",
+        "detail": "He can now facebreak you into a punch combo. Hold E for the moment he pulls \u2014 dash through him and knock up with Q2."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "enemy",
+        "detail": "The Show Stopper throws you under tower if you overextend. Poke from max Q range only."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Black Cleaver plus World Ender means he can't walk at you. Crash waves and roam for river fights."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Haymaker (W)",
+        "detail": "Save Umbral Dash for it \u2014 dash sideways THROUGH him the moment he raises his arms. The center true damage is the whole trade."
+      },
+      {
+        "type": "punish",
+        "ability": "Facebreaker (E) miss",
+        "detail": "No gap close for 16s. Walk up and chain all three Q sweet spots \u2014 he's a punching bag at range."
+      },
+      {
+        "type": "counter",
+        "ability": "Pit Grit (passive)",
+        "detail": "His right punch heals him. Break off after 2 hits and poke with Q \u2014 never let him rhythm-trade with the full combo."
+      }
+    ],
+    "waveManagement": "Slow push from range with Q \u2014 you clear waves without ever entering Facebreaker range. Crash and roam; your river presence with World Ender wins objectives even when the lane is even.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "aatrox-vs-camille",
+    "playerChampion": "aatrox",
+    "enemyChampion": "camille",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Aatrox outranges Camille's short trade pattern. Save Infernal Chains for after Hookshot \u2014 if she can't stick, she can't win.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "first back",
+          "reason": "Her true damage window is short \u2014 the rest is physical autos and dive damage."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Movement speed lets you chase her post-shield; armor shred stacks on her dive-in combo."
+        },
+        {
+          "itemId": "deaths-dance",
+          "timing": "second item",
+          "reason": "Turns her burst into a bleed you heal through with World Ender."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "warmogs-armor",
+          "reason": "Passive regeneration plays into her short-trade game. You need combat stats, not sustain between losses."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating neutralizes her dive-auto-second-Q pattern \u2014 she can't break it in one rotation."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts her Tactical Sweep healing and keeps her in kill range after she wall-dives away."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Your Q range outruns everything she has. Punish every CS with a sweet spot."
+      },
+      {
+        "phase": "Level 3",
+        "advantage": "even",
+        "detail": "Hookshot exists. Never stand next to walls she can grapple from \u2014 fight in the lane's center."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Hextech Ultimatum holds you still for her true damage. World Ender the moment she ults and fight inside the zone."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Cleaver plus World Ender outruns her passive shield. Force all-ins whenever her shield is on cooldown."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Precision Protocol (Q)",
+        "detail": "Second cast is true damage after a delay. Keep moving after she Q1s \u2014 never stand where she can auto-reset you."
+      },
+      {
+        "type": "punish",
+        "ability": "Hookshot (E) down",
+        "detail": "16s window with no dash. Walk at her with World Ender and land all three Qs."
+      },
+      {
+        "type": "counter",
+        "ability": "Tactical Sweep (W)",
+        "detail": "Dash through her with Umbral Dash \u2014 inside the cone she gets no heal and no slow."
+      }
+    ],
+    "waveManagement": "Keep the wave central \u2014 walls are her escape route and her engage. Poke from range and crash only with World Ender available for the counter-gank.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "camille-vs-aatrox",
+    "playerChampion": "camille",
+    "enemyChampion": "aatrox",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Camille wins the burst trade through her shield and leaves. Dodge Q sweet spots with Hookshot and she controls every exchange.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Wounds cut Deathbringer Stance and World Ender healing \u2014 his whole sustain engine."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade burst ends trades before his Conqueror and healing ramp up."
+        },
+        {
+          "itemId": "deaths-dance",
+          "timing": "second item",
+          "reason": "Absorbs his Q combo burst and heals you back off the takedown."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Extended auto-trades are exactly what his sweet spots punish."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "brutal",
+        "legend-tenacity",
+        "second-wind",
+        "bone-plating"
+      ],
+      "reason": "Grasp + Adaptive Defenses makes each one-second trade unanswerable \u2014 then Hookshot away before Q2."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite is required to punch through World Ender healing during your one all-in per recall."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Level 1-2",
+        "advantage": "even",
+        "detail": "Q1 outpokes you. Answer with W outer heal and hold Grasp for the shield-bash moment."
+      },
+      {
+        "phase": "Level 3",
+        "advantage": "player",
+        "detail": "Hookshot dodges his Q sweet spots \u2014 grapple through him, proc the shield, second Q true damage, leave."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Both ultimates are fight-winners. Only ult him when World Ender is down or under your tower."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Trinity + Death's Dance out-bursts his healing window. Catch him in the side lane before he completes Cleaver."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "The Darkin Blade (Q)",
+        "detail": "The sweet spots are his damage. Hookshot THROUGH him mid-cast \u2014 he can't reposition the swing."
+      },
+      {
+        "type": "punish",
+        "ability": "Infernal Chains (W) miss",
+        "detail": "18s cooldown and no pull. This is your all-in window \u2014 dive him before Umbral Dash refreshes."
+      },
+      {
+        "type": "counter",
+        "ability": "World Ender (R)",
+        "detail": "The Hextech Ultimatum holds him inside your tower range if he transforms on your side. Ult him INTO the tower, not away from it."
+      }
+    ],
+    "waveManagement": "Bounce waves off his tower and trade at the bounce point where walls are far. He punishes long lanes \u2014 keep trades short and roams timed with your wave crash.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "darius-vs-aatrox",
+    "playerChampion": "darius",
+    "enemyChampion": "aatrox",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Darius wins hard once bleed stacks \u2014 Aatrox must poke from range and never let Apprehend connect. Ghost answers World Ender.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Grievous Wounds hits Deathbringer Stance, Q healing and World Ender at once."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "His Q and passive autos are physical."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Movement speed keeps you on him through Umbral Dash; armor shred stacks with bleed."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "warmogs-armor",
+          "reason": "He wants poke wars; you want all-ins. Build chase and armor, not regeneration."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "reason": "Default is ideal \u2014 Second Wind answers his poke; Conqueror + bleed wins every extended fight."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ghost"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost counters World Ender's speed. Pop it when he transforms and run him down after the form expires \u2014 or through it."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "He has one Q cast at level 1. Walk through the swing, five stacks, done."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "even",
+        "detail": "He pokes from max range now. Use the brush, approach during his Q cooldown, and always pull AFTER Umbral Dash."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "World Ender beats raw stat-checks. Ghost to disengage the transform, re-engage after."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Bramble + Steelcaps + Cleaver: he heals nothing and can't kite the slow. Freeze and deny."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "The Darkin Blade (Q)",
+        "detail": "Sweet spots knock up into chain combos. Sidestep or walk in \u2014 never retreat in a straight line."
+      },
+      {
+        "type": "punish",
+        "ability": "Umbral Dash (E) used",
+        "detail": "No escape for 9s. Apprehend immediately and stack Hemorrhage \u2014 this is your kill window."
+      },
+      {
+        "type": "counter",
+        "ability": "World Ender (R)",
+        "detail": "Don't fight it head-on. Ghost away, then turn when the transform ends \u2014 he's a minion without it."
+      }
+    ],
+    "waveManagement": "Freeze on your side. Aatrox hates short lanes \u2014 he needs space to chain sweet spots and retreat. Ward river so his roam-to-mid escape plan fails.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "aatrox-vs-darius",
+    "playerChampion": "aatrox",
+    "enemyChampion": "darius",
+    "role": "top",
+    "difficulty": "hard",
+    "summary": "Aatrox must poke and refuse the all-in. If Darius pulls you with five stacks ready, you die \u2014 space perfectly or lose lane.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "first back",
+          "reason": "Bleed and Noxian Guillotine follow-ups are physical \u2014 armor beats damage here."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Movement speed is your survival tool against Ghost; shred helps your poke stick."
+        },
+        {
+          "itemId": "deaths-dance",
+          "timing": "second item",
+          "reason": "Delays his bleed burst into a window where World Ender can heal you back."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "steraks-gage",
+          "reason": "Noxian Guillotine executes through shields at five stacks \u2014 health and armor survive where shields don't."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "fleet-footwork",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "reason": "Fleet Footwork's movement speed is your get-out-of-Apprehend card; the heal tops you off between his engages."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost matches his Ghost. If he pops his and you don't have one, the long lane kills you."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Level 1",
+        "advantage": "even",
+        "detail": "Q poke from max range. Never let him auto you \u2014 one bleed stack turns into five if he has Ghost."
+      },
+      {
+        "phase": "Levels 2-4",
+        "advantage": "enemy",
+        "detail": "Apprehend is live. Stay outside its range at ALL times \u2014 you are playing a spacing minigame for 3 minutes."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "enemy",
+        "detail": "His ult is better in pure all-ins. Poke, and only fight when he's at 40% under his own tower."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "even",
+        "detail": "Cleaver + Death's Dance let you survive the pull. Start side-laning and ignore him \u2014 out-teamfight instead."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Apprehend (E)",
+        "detail": "The pull is his engage. Hold Umbral Dash exclusively for this \u2014 Q1, dash through him as he pulls, keep moving."
+      },
+      {
+        "type": "punish",
+        "ability": "Decimate (Q) used",
+        "detail": "No heal and no damage for 9s. Land all three Darkin Blade swings in this window."
+      },
+      {
+        "type": "counter",
+        "ability": "Noxian Guillotine (R)",
+        "detail": "World Ender's movement speed can carry you out of the execute range. Never linger at half health with stacks on you."
+      }
+    ],
+    "waveManagement": "Never freeze near his side \u2014 you want the wave under YOUR tower where he can't chase the full bleed out. Thin waves with Q1 and give up CS if the alternative is walking into Apprehend range.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "malphite-vs-sett",
+    "playerChampion": "malphite",
+    "enemyChampion": "sett",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Malphite pokes with Seismic Shard and out-teamfights Sett. Never brawl in melee \u2014 Q, run, repeat until he's too low to fight.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Thorns wounds Pit Grit and punishes his punch combos."
+        },
+        {
+          "itemId": "sunfire-aegis",
+          "timing": "first core item",
+          "reason": "Immolate burns him while he facebreaks you \u2014 he can't stand in your wave."
+        },
+        {
+          "itemId": "thornmail",
+          "timing": "second item",
+          "reason": "Reflect damage plus wounds turns his own combo into his execution."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "rabadons-deathcap",
+          "reason": "AP Malphite into Sett is a coinflip \u2014 tank Malphite owns him after first back."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aftershock",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "triumph"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "demolish"
+      ],
+      "reason": "Grasp trades through Thunderclap autos while Bone Plating eats his Facebreaker combos. Demolish takes plates on every recall he makes."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost escapes his facebreak-all-ins and repositions you for Unstoppable Force angles."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "Seismic Shard outranges everything he has. Poke him off every CS and never auto-attack back."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Unstoppable Force under tower when he facebreaks past the line. He cannot escape the combo."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "even",
+        "detail": "Sunfire lets you survive his all-in and shove. Roam mid with R \u2014 he can't match your teamfights."
+      },
+      {
+        "phase": "3 Items",
+        "advantage": "player",
+        "detail": "You're a 5v5 monster; he's a side-lane duelist. Force objectives and ult their carry."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Facebreaker (E)",
+        "detail": "It stuns if he catches you and a minion/champion on both sides. Stand on one side of the wave only."
+      },
+      {
+        "type": "punish",
+        "ability": "Haymaker (W) used",
+        "detail": "No shield and no true damage for 16s. Ult him and dump your combo while grit is empty."
+      },
+      {
+        "type": "counter",
+        "ability": "The Show Stopper (R)",
+        "detail": "He throws you AWAY from his tower \u2014 which means toward yours if you position right. Bait it near your turret."
+      }
+    ],
+    "waveManagement": "Keep the wave just outside your tower and poke every last hit. If he roams, hard-shove with Sunfire and take his plates. Your Unstoppable Force wins dragon fights \u2014 be there for them.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "sett-vs-malphite",
+    "playerChampion": "sett",
+    "enemyChampion": "malphite",
+    "role": "top",
+    "difficulty": "easy",
+    "summary": "Sett shrugs off Malphite's poke and facebreaks him into oblivion. The only loss condition is ignoring his roams to dragon.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "mercury-treads",
+          "timing": "first back",
+          "reason": "Tenacity escapes Unstoppable Force follow-ups; MR blunts Seismic Shard poke."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade punches through Granite Shield and stacked armor."
+        },
+        {
+          "itemId": "black-cleaver",
+          "timing": "second item",
+          "reason": "Shreds his armor stacking and keeps you glued to him with movement speed."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "plated-steelcaps",
+          "reason": "He deals magic damage \u2014 armor boots buy nothing except a slightly weaker W auto."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "demolish"
+      ],
+      "reason": "Demolish turns every poke-recall he takes into a plate \u2014 he cannot hold tower against you."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts Granite Shield regeneration during your all-in \u2014 he survives on shields and regen, not armor."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "He's a poke bot. Walk through Seismic Shard slow and punch \u2014 you win by an enormous margin."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "player",
+        "detail": "Ground Slam's attack speed slow is annoying \u2014 open with Facebreaker stun and left-right punches before spinning matters."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "His ult calls for ganks. Ward river and keep The Show Stopper to throw HIM under YOUR tower when he engages."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Trinity shreds him. Take plates with Demolish and start roaming \u2014 kill his team, not him."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Unstoppable Force (R)",
+        "detail": "Flash it or tank it with Haymaker's shield ready. Never stand beside your low-health carry when it's up."
+      },
+      {
+        "type": "punish",
+        "ability": "Seismic Shard (Q) used",
+        "detail": "No slow for 8s \u2014 he can't escape the facebreak. Chase him down the lane every time he pokes."
+      },
+      {
+        "type": "counter",
+        "ability": "Granite Shield (passive)",
+        "detail": "Poke his shield off with a single auto before trading. Fighting through the shield wastes your whole combo."
+      }
+    ],
+    "waveManagement": "Slow push and crash \u2014 he clears waves but bleeds plates to Demolish. When he roams mid or to dragon, shove harder and take tower: the cross-map trade is always yours.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "garen-vs-sett",
+    "playerChampion": "garen",
+    "enemyChampion": "sett",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Garen wins the silence-then-leave trade; Sett wins the fistfight. Q-spin-run is the whole lane \u2014 never linger for 'one more auto'.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Thorns wounds his Pit Grit regeneration between your short trades."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "His damage is auto-attack based outside Haymaker."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade on Decisive Strike makes each trade hit hard and end fast."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "On-hit trading keeps you in Haymaker and Facebreaker range for far too long."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "demolish"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "brutal",
+        "legend-tenacity",
+        "second-wind",
+        "bone-plating"
+      ],
+      "reason": "Grasp matches the trade pattern this lane needs. Bone Plating absorbs his facebreak combos entirely."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts Pit Grit when you commit to Demacian Justice \u2014 he survives on regeneration, not armor."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "even",
+        "detail": "Silence-Q and leave before he answers. Two autos max \u2014 the third is where Pit Grit wins."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "even",
+        "detail": "Facebreaker beats your retreat. Trade only when Bone Plating is up and leave through the minion wave."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "The Show Stopper throws you into his tower if you overextend. Demacian Justice executes him through Haymaker if you ult after his shield."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Trinity burst plus Perseverance means he can't keep up with your trade frequency. Shove and roam."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Haymaker (W)",
+        "detail": "The true damage center kills. Run sideways after your Q \u2014 never straight back through the line."
+      },
+      {
+        "type": "punish",
+        "ability": "Facebreaker (E) down",
+        "detail": "16s with no gap close. Spin on him freely \u2014 he has no answer without the pull."
+      },
+      {
+        "type": "counter",
+        "ability": "Pit Grit (passive)",
+        "detail": "His right punch heals. Silence him before it lands and walk away \u2014 he loses the trade window entirely."
+      }
+    ],
+    "waveManagement": "Bounce waves into his tower and back off \u2014 he can't freeze with Judgment breaking it. Use the roam timer to gank mid or take scuttle with your jungler.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "sett-vs-garen",
+    "playerChampion": "sett",
+    "enemyChampion": "garen",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Sett's fist beats Garen's spin if the fight lasts 3+ seconds. Facebreak him mid-spin and he has no way out.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Grievous Wounds halves Perseverance \u2014 his only sustain."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "second purchase",
+          "reason": "Decisive Strike, Judgment and Demacian Justice's physical portion all get reduced."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade punches through his Courage window faster."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "serpents-fang",
+          "reason": "Courage's damage reduction isn't a shield \u2014 buy armor and force long fights instead."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating ruins his silence-poke pattern; Conqueror wins the fistfight once he commits."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite answers Perseverance during the all-in \u2014 and Haymaker true damage finishes what it starts."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Left-right punch out-damages his silence-auto. Facebreak him when he walks up for the caster minions."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "even",
+        "detail": "He spins and runs. Facebreak during Judgment to keep him in it \u2014 then Haymaker before he escapes."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "The Show Stopper drags him under tower when he overextends for a spin. Fight on your turret's terms."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Trinity and he can't trade at all. Freeze, deny, and crush the lane."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Judgment (E)",
+        "detail": "His spin is most of his damage. Facebreak him out of its path and stand in the middle of your own wave."
+      },
+      {
+        "type": "punish",
+        "ability": "Decisive Strike (Q) used",
+        "detail": "No silence and no speed for 8s. Run him down the full lane length."
+      },
+      {
+        "type": "counter",
+        "ability": "Demacian Justice (R)",
+        "detail": "Haymaker the moment he raises his sword \u2014 the shield holds you above the execute threshold."
+      }
+    ],
+    "waveManagement": "Freeze just outside tower. He can't break it without eating a facebreak combo. When he roams, shove with Demolish and take his plates.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "malphite-vs-aatrox",
+    "playerChampion": "malphite",
+    "enemyChampion": "aatrox",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Malphite out-pokes and out-teamfights Aatrox. His sweet spots hurt early \u2014 respect them until first back, then own him.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "bramble-vest",
+          "timing": "first back (~900g)",
+          "reason": "Wounds cut Deathbringer Stance and World Ender healing before he snowballs."
+        },
+        {
+          "itemId": "sunfire-aegis",
+          "timing": "first core item",
+          "reason": "Immolate punishes his melee-range Q casts; health and armor soak his full combo."
+        },
+        {
+          "itemId": "thornmail",
+          "timing": "second item",
+          "reason": "Reflect plus wounds makes his own sustain engine backfire."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "mercury-treads",
+          "reason": "His knockups are brief and physical damage is the threat \u2014 Plated Steelcaps are strictly better here."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aftershock",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "triumph"
+      ],
+      "recommended": [
+        "grasp-of-the-undying",
+        "font-of-life",
+        "second-wind",
+        "overgrowth",
+        "demolish"
+      ],
+      "reason": "Second Wind answers his Q poke while Grasp powers Thunderclap trades. Demolish punishes every recall."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ghost"
+      ],
+      "reason": "Ghost escapes World Ender chases and repositions Unstoppable Force \u2014 more consistent than Ignite here."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "even",
+        "detail": "His Q outranges your Q. Give CS if needed \u2014 the lane flips after first back."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Unstoppable Force under tower when he dashes in. He cannot escape once knocked up."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Sunfire + Bramble and he heals nothing while burning. Shove and roam with ult."
+      },
+      {
+        "phase": "3 Items",
+        "advantage": "player",
+        "detail": "Full tank Malphite is a brick wall he can't break, while you one-shot their backline with R."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "The Darkin Blade (Q)",
+        "detail": "Sweet spots knock up into chains. Walk toward him or sidestep \u2014 never retreat in a straight line."
+      },
+      {
+        "type": "punish",
+        "ability": "Umbral Dash (E) used",
+        "detail": "9s without a dash. Seismic Shard him and run him down with Sunfire burning."
+      },
+      {
+        "type": "counter",
+        "ability": "World Ender (R)",
+        "detail": "Unstoppable Force HIM when he transforms near your tower \u2014 the knockup wastes half his ultimate duration."
+      }
+    ],
+    "waveManagement": "Keep the wave near your tower early; after Sunfire, hard-shove and roam mid. He wins side lanes, you win teamfights \u2014 play the map, not the man.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "aatrox-vs-malphite",
+    "playerChampion": "aatrox",
+    "enemyChampion": "malphite",
+    "role": "top",
+    "difficulty": "medium",
+    "summary": "Aatrox out-sustains Malphite's poke but must end the lane before full armor. Beat him before Sunfire + Thornmail arrive.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Armor shred is mandatory the moment he stacks armor; movement speed answers his poke-and-run style."
+        },
+        {
+          "itemId": "deaths-dance",
+          "timing": "second item",
+          "reason": "Sustains you through his Sunfire burn and slows down his all-in burst."
+        },
+        {
+          "itemId": "mortal-reminder",
+          "timing": "third item",
+          "reason": "Percentage armor penetration plus Grievous Wounds if he stacks pure armor."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Health-stacking tank shrugs off on-hit damage \u2014 raw armor penetration is what matters."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "brutal",
+        "legend-tenacity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "conqueror",
+        "brutal",
+        "giant-slayer",
+        "last-stand",
+        "second-wind"
+      ],
+      "reason": "Giant Slayer punishes his health stacking while Second Wind answers Seismic Shard poke."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite keeps him killable through Granite Shield and Sunfire regeneration windows."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "Your Q outranges everything he has. Punish every last hit \u2014 he cannot answer without Unstoppable Force."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "His ult calls ganks. Play the side opposite your jungler and respect river vision."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Cleaver completes before his Thornmail. Force fights NOW \u2014 this is your kill window."
+      },
+      {
+        "phase": "3 Items",
+        "advantage": "enemy",
+        "detail": "Sunfire + Thornmail + full armor and he's unkillable. Group and ult their carries instead."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Unstoppable Force (R)",
+        "detail": "Flash it or eat it away from tower. Being knocked up under his tower is a death sentence."
+      },
+      {
+        "type": "punish",
+        "ability": "Seismic Shard (Q) used",
+        "detail": "8s without a slow \u2014 chain Q sweet spots on him while he's stuck walking."
+      },
+      {
+        "type": "counter",
+        "ability": "Granite Shield (passive)",
+        "detail": "Pop the shield with one Q1 before committing. Fighting through the shield wastes your entire combo."
+      }
+    ],
+    "waveManagement": "Slow push early and crash \u2014 you want him farming under tower where Q sweet spots land for free. Once he completes armor items, stop side-laning and teleport-flank with World Ender.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "ahri-vs-zed",
+    "playerChampion": "ahri",
+    "enemyChampion": "zed",
+    "role": "mid",
+    "difficulty": "hard",
+    "summary": "Zed's all-in kills Ahri from 60%; Ahri wins the poke war if she holds Charm for his shadow dash-in. Never use Charm aggressively.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "stasis-enchant",
+          "timing": "T2 boots + enchant",
+          "reason": "Stasis denies the Death Mark pop entirely \u2014 the single most important item in this lane."
+        },
+        {
+          "itemId": "ludens-echo",
+          "timing": "second purchase",
+          "reason": "Burst for short trades where he can't answer; mana keeps your poke machine running."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "Raw AP to one-combo him after he misses a shuriken."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "nashors-tooth",
+          "reason": "Attack speed stacking walks into his burst range \u2014 you need burst and Stasis, not on-hit damage."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "electrocute",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating eats his W-Q-E burst pattern. Without it he wins the short trades he's supposed to lose."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "barrier"
+      ],
+      "reason": "Barrier holds you above Death Mark's execute threshold. Ignite is nice; surviving his R is mandatory."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "He's a melee minion before Living Shadow. Auto-attack him for every CS and charm any aggression."
+      },
+      {
+        "phase": "Level 4",
+        "advantage": "even",
+        "detail": "W-E-Q is his trade. Keep 1.5 screens away from his shadow range and farm with Orb of Deception."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "enemy",
+        "detail": "Death Mark all-in is lethal from 60% health. Respect his range, ward both sides, hold Charm for the shadow swap."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Stasis up means his ult is a coinflip; Stasis down means play safe. Track it like a summoner spell."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Razor Shuriken (Q)",
+        "detail": "Both shurikens must hit for real damage. Stand behind your melee minions and he can't line both up."
+      },
+      {
+        "type": "punish",
+        "ability": "Living Shadow (W) down",
+        "detail": "20s cooldown with no mobility left. Charm forward and dump your full combo \u2014 this is your window."
+      },
+      {
+        "type": "counter",
+        "ability": "Death Mark (R)",
+        "detail": "Charm the moment he reappears (he always lands behind you), Spirit Rush sideways, then Stasis when the X marks detonate."
+      }
+    ],
+    "waveManagement": "Keep the wave on your side near tower \u2014 Zed hates farming into a freeze where ganks threaten him. Never shove him in; his tower farm is safe and his roam timer is deadly. Ping missing every time he leaves.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "zed-vs-ahri",
+    "playerChampion": "zed",
+    "enemyChampion": "ahri",
+    "role": "mid",
+    "difficulty": "medium",
+    "summary": "Zed kills Ahri when Charm is down. Bait the Charm with a shadow fake, then all-in \u2014 she has nothing left without it.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "timing": "first core item",
+          "reason": "Movement speed closes the gap before Charm can react; lethality one-shots her through the lane."
+        },
+        {
+          "itemId": "duskblade-of-draktharr",
+          "timing": "second item",
+          "reason": "Bonus damage on your engage plus invisibility on takedowns for teamfights."
+        },
+        {
+          "itemId": "edge-of-night",
+          "timing": "third item",
+          "reason": "Its passive blocks Charm entirely in later fights."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "mortal-reminder",
+          "reason": "She builds no armor \u2014 flat lethality outperforms penetration here."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "reason": "Default is optimal \u2014 sudden Impact + Nimbus Cloak after Ignite makes your all-in unavoidable."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite completes your burst threshold \u2014 she survives at 5% without it and charms you away."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "enemy",
+        "detail": "Ranged poke hurts. Farm with Q, give CS if needed, and wait for level 4."
+      },
+      {
+        "phase": "Level 4",
+        "advantage": "even",
+        "detail": "W-Q-E with Electrocute chunks her to half. Shadow forward only when Charm is on cooldown."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Death Mark kills her at 55% through Barrier. Fake a roam to bait Charm, then all-in."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Youmuu's active means she can't kite you. Roam bot with it \u2014 she can't follow your speed."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Charm (E)",
+        "detail": "Charm is her only survival tool. Send W forward and swap instantly \u2014 if she charms the shadow, she's dead to the next engage."
+      },
+      {
+        "type": "punish",
+        "ability": "Spirit Rush (R) down",
+        "detail": "No dash for 110s. Shadow in and she dies with Flash only \u2014 burn it and repeat."
+      },
+      {
+        "type": "counter",
+        "ability": "Essence Theft (passive)",
+        "detail": "Her heal comes from ability hits. All-in when her passive is unstacked \u2014 check the glow under her model."
+      }
+    ],
+    "waveManagement": "Thin the wave and freeze just outside your tower so she overextends for poke. When you roam (especially with Youmuu's), hard-shove first \u2014 she loses plates answering your bot-lane double kill.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "yasuo-vs-zed",
+    "playerChampion": "yasuo",
+    "enemyChampion": "zed",
+    "role": "mid",
+    "difficulty": "medium",
+    "summary": "Wind Wall eats his entire kit except Death Mark itself. Play around the wall cooldown and Yasuo wins every extended fight.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "first back",
+          "reason": "Armor boots blunt his shuriken poke and auto-attack trades."
+        },
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "Life steal outlasts his burst window; the slow keeps him from disengaging."
+        },
+        {
+          "itemId": "deaths-dance",
+          "timing": "second item",
+          "reason": "Bleeds his Death Mark burst so your lifesteal can answer it."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "maw-of-malmortius",
+          "reason": "Maw's magic shield does nothing against Zed's all-physical burst \u2014 buy Plated Steelcaps and armor instead."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "last-stand",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating eats his W-Q-E burst \u2014 the trade he relies on to win lane is completely neutralized."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts his passive-empowered all-ins; you win long fights but need the burst reduction to survive short ones."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Wind Wall blocks Shuriken entirely. Walk up and auto \u2014 he's melee with no gap close yet."
+      },
+      {
+        "phase": "Level 3",
+        "advantage": "even",
+        "detail": "Living Shadow doubles his threat. Hold Wind Wall for the shadow's shuriken, not the first one."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Death Mark is unblockable. Shield the pop with passive shield + Bone Plating, then Last Breath him when he reappears."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Blade of the Ruined King and he can't burst you through lifesteal. Extended fights are always yours."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Living Shadow (W) forward",
+        "detail": "Wind Wall BETWEEN you and the shadow \u2014 it blocks both shurikens. Never wall in front of yourself only."
+      },
+      {
+        "type": "punish",
+        "ability": "Shadow Slash (E) used",
+        "detail": "His slow is down \u2014 dash in with Sweeping Blade and stick to him through his own minion wave."
+      },
+      {
+        "type": "counter",
+        "ability": "Death Mark (R)",
+        "detail": "Last Breath him the moment he reappears \u2014 it suspends him while the mark is still counting, delaying his burst into your lifesteal window."
+      }
+    ],
+    "waveManagement": "Stack your Q3 on the wave and hold it \u2014 the tornado threat zones him off CS entirely. Keep the wave near your tower; his ideal lane is a long chase after a roamed kill.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "zed-vs-yasuo",
+    "playerChampion": "zed",
+    "enemyChampion": "yasuo",
+    "role": "mid",
+    "difficulty": "medium",
+    "summary": "Bait Wind Wall with a single shuriken, then unload the full combo when it's down. Yasuo wins extended fights \u2014 you win windows.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "timing": "first core item",
+          "reason": "Movement speed punishes every Wind Wall cooldown with an all-in he can't outrun."
+        },
+        {
+          "itemId": "serpents-fang",
+          "timing": "second item",
+          "reason": "His passive shield blocks a full combo's worth of damage \u2014 this item deletes it."
+        },
+        {
+          "itemId": "duskblade-of-draktharr",
+          "timing": "third item",
+          "reason": "Burst damage and takedown invisibility for the teamfights after lane."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "black-cleaver",
+          "reason": "He builds minimal armor \u2014 lethality spikes harder against a fighter stacking attack speed."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "electrocute",
+        "sudden-impact",
+        "cheap-shot",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "reason": "Cheap Shot punishes his tornado-miss windows with true damage on top of your shadow combo."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts the lifesteal he builds after first item \u2014 mandatory for post-6 kills."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "even",
+        "detail": "His Wind Wall blocks your shuriken \u2014 never Q where the wall can eat it. Farm and look for E-Q poke when it's down."
+      },
+      {
+        "phase": "Level 4-5",
+        "advantage": "player",
+        "detail": "Your burst outruns his stacking attack speed. All-in through the gap between Wind Wall cooldowns."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "He can Last Breath your death mark target. Kill him BEFORE he stacks Q3, or hold your R until his tornado is spent."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Youmuu's plus Serpent's Fang destroys his shield-and-heal pattern. Roam bot with active speed."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Steel Tempest (Q3)",
+        "detail": "The tornado is his only engage and his Last Breath setup. Sidestep it and he's a sitting duck for 20s of stacking."
+      },
+      {
+        "type": "punish",
+        "ability": "Wind Wall (W) down",
+        "detail": "26s cooldown early. Shadow-shuriken-slash the instant it expires \u2014 he has zero projectile defense."
+      },
+      {
+        "type": "counter",
+        "ability": "Way of the Wanderer (passive)",
+        "detail": "His shield charges while moving. Poke it off with a single shuriken before your all-in \u2014 never combo into a fresh shield."
+      }
+    ],
+    "waveManagement": "Keep the wave even or slightly pushed \u2014 a Yasuo freezing near his tower is a nightmare since your shadows can't chase through his wave. Roam after every crash; he can't match your side-lane burst.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "lux-vs-zed",
+    "playerChampion": "lux",
+    "enemyChampion": "zed",
+    "role": "mid",
+    "difficulty": "hard",
+    "summary": "Lux must bully levels 1-4 and survive post-5 with Barrier and Light Binding. If Zed lands on you without Charm-range discipline, you die.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "stasis-enchant",
+          "timing": "T2 boots + enchant",
+          "reason": "Stasis the Death Mark pop and walk away \u2014 the whole lane turns on this active."
+        },
+        {
+          "itemId": "ludens-echo",
+          "timing": "second item",
+          "reason": "Wave clear and poke from a range he cannot answer."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "One-shot potential when he misses a combo."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "nashors-tooth",
+          "reason": "Auto-attack range is his kill zone \u2014 never build toward trading autos with Zed."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "arcane-comet",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "arcane-comet",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating survives his W-Q-E combo; without it you're always one rotation from death."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "barrier"
+      ],
+      "recommended": [
+        "flash",
+        "barrier"
+      ],
+      "reason": "Barrier holds you above Death Mark's execute. Flash forward only for snipes \u2014 defensive Flash is your escape."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-4",
+        "advantage": "player",
+        "detail": "He's melee with one shuriken. Bind him through the wave, auto for Illumination, and make him hate the lane."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "enemy",
+        "detail": "Death Mark one-shots you at 60%. Play max range, ward both sides, and never cross the river line."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "even",
+        "detail": "Stasis up = you can farm aggressively. Stasis down = he owns the lane. Track the cooldown like a summoner spell."
+      },
+      {
+        "phase": "3 Items",
+        "advantage": "player",
+        "detail": "You one-shot waves and carries from a screen away; he needs flank angles that your team can ward."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Living Shadow (W) forward",
+        "detail": "The moment his shadow lands, Light Binding travels toward YOU \u2014 cast it at your own feet to catch him mid-swap."
+      },
+      {
+        "type": "punish",
+        "ability": "Razor Shuriken (Q) used",
+        "detail": "No poke and no death-mark setup for 8s. Step up and land E-auto-comet freely."
+      },
+      {
+        "type": "counter",
+        "ability": "Death Mark (R)",
+        "detail": "Barrier BEFORE the pop, Stasis AT the pop. Binding him the moment he reappears turns his kill into your kill."
+      }
+    ],
+    "waveManagement": "Shove hard with Lucent Singularity levels 1-4 and poke under his tower. After level 5 keep the wave frozen near YOUR tower \u2014 Zed's roams are his win condition and a pushed wave stops him cold.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "zed-vs-lux",
+    "playerChampion": "zed",
+    "enemyChampion": "lux",
+    "role": "mid",
+    "difficulty": "easy",
+    "summary": "Zed hard-counters Lux \u2014 she has one skillshot to stop you and it costs her everything. Shadow dodge the binding and she dies.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "timing": "first core item",
+          "reason": "Movement speed closes her kite range before Barrier can save her."
+        },
+        {
+          "itemId": "duskblade-of-draktharr",
+          "timing": "second item",
+          "reason": "Raw burst \u2014 she has no armor and no health pool to survive it."
+        },
+        {
+          "itemId": "edge-of-night",
+          "timing": "third item",
+          "reason": "The spell shield blocks Light Binding outright in teamfights."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "mortal-reminder",
+          "reason": "Flat lethality outperforms percentage penetration against a zero-armor target."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "reason": "Default is perfect \u2014 Nimbus Cloak after Ignite makes her Flash irrelevant."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite kills her through Barrier at level 5. Save it for the death mark window."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "even",
+        "detail": "Her poke is real. Farm with Q and respect Light Binding's range \u2014 the lane flips at 4."
+      },
+      {
+        "phase": "Level 4-5",
+        "advantage": "player",
+        "detail": "W over the binding, full combo, Ignite, done. She has no answer once you're on top of her."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Death Mark + Electrocute kills from 60% through Barrier. Roam bot after every kill."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Youmuu's and she can't even stand in her own lane. Take tower plates and spread the lead."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Light Binding (Q)",
+        "detail": "Send Living Shadow sideways or forward \u2014 never run straight at her. If she holds it, walk up and force the cast."
+      },
+      {
+        "type": "punish",
+        "ability": "Light Binding (Q) used",
+        "detail": "10s of pure vulnerability. Everything she has is now dodgeable \u2014 walk at her and unload."
+      },
+      {
+        "type": "counter",
+        "ability": "Barrier",
+        "detail": "Ignite BEFORE you expect it. Barrier cuts your burst by one auto \u2014 one extra shuriken solves it."
+      }
+    ],
+    "waveManagement": "Freeze near your tower and let her overextend for poke \u2014 Lux under your tower is a free kill for your jungler. After each kill, roam bot with Youmuu's and end the game before she one-shots waves.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "ahri-vs-katarina",
+    "playerChampion": "ahri",
+    "enemyChampion": "katarina",
+    "role": "mid",
+    "difficulty": "medium",
+    "summary": "Ahri outranges and out-controls Katarina. Hold Charm for Death Lotus \u2014 one Charm cancels her entire teamfight contribution.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "ludens-echo",
+          "timing": "first core item",
+          "reason": "Burst and wave clear to punish every dagger pickup attempt."
+        },
+        {
+          "itemId": "stasis-enchant",
+          "timing": "T2 boots + enchant",
+          "reason": "Stasis stops her reset chain if she gets a jump on you."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "One-shot her before she can shunpo away."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "nashors-tooth",
+          "reason": "You outrange her massively \u2014 building toward auto-trades walks into her dagger zone."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "electrocute",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating breaks her Q-E-dagger burst pattern \u2014 she can't proc a full rotation through it."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "barrier"
+      ],
+      "reason": "Barrier survives her level 5 all-in; Charm is usually enough kill pressure on its own."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "She's melee with a poke bounce. Auto her for every dagger she walks up to collect."
+      },
+      {
+        "phase": "Level 4",
+        "advantage": "player",
+        "detail": "Her full combo is predictable \u2014 Charm her as she shunpos in and unload."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Death Lotus + Ignite is lethal. Never stand in a dagger cluster; Charm cancels her ult instantly."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Luden's burst kills her before Death Lotus channels. Push and roam before she can snowball side lanes."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Bouncing Blade (Q) daggers",
+        "detail": "Never walk where a dagger will land \u2014 that's where her burst lives. The ground indicator tells you exactly where."
+      },
+      {
+        "type": "punish",
+        "ability": "Shunpo (E) used",
+        "detail": "Her only escape is down. Charm and full combo while she's stuck in your wave."
+      },
+      {
+        "type": "counter",
+        "ability": "Death Lotus (R)",
+        "detail": "Seduce cancels it instantly. Hold Charm at ALL costs when her ult is up \u2014 using it offensively here is how you feed."
+      }
+    ],
+    "waveManagement": "Shove the wave and roam \u2014 she clears slowly under tower and loses plates. Ping every missing signal; her roams are her only win condition. Ward the river exits, not the lane.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "katarina-vs-ahri",
+    "playerChampion": "katarina",
+    "enemyChampion": "ahri",
+    "role": "mid",
+    "difficulty": "hard",
+    "summary": "Katarina kills Ahri only when Charm is down. Bait it with dagger pressure, shunpo the miss, and the lane is yours.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "ludens-echo",
+          "timing": "first core item",
+          "reason": "Burst damage that procs off your whole reset chain."
+        },
+        {
+          "itemId": "infinity-orb",
+          "timing": "second item",
+          "reason": "Execute damage against low-health targets \u2014 finishes what Death Lotus starts."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "Raw AP for one-shot resets in teamfights."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "On-hit builds need extended fights; Ahri's Charm shuts those down instantly."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "reason": "Default is optimal \u2014 Sudden Impact on Shunpo plus Nimbus Cloak after Ignite makes your all-in unkitable."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite + Electrocute reaches lethal thresholds Charm can't answer. Roam with both up."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "enemy",
+        "detail": "Her range punishes every CS. Farm with Q bounces and give up contested last hits \u2014 you out-scale the lane."
+      },
+      {
+        "phase": "Level 4",
+        "advantage": "even",
+        "detail": "Q-E-dagger-W is your trade. Only shunpo forward when Charm has just missed."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Death Lotus all-in works if Charm is down. If she holds it, roam bot instead \u2014 she can't match your river speed."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "even",
+        "detail": "Luden's burst threatens her from 50%. Ping your jungler \u2014 she dies to any gank without Spirit Rush."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Charm (E)",
+        "detail": "The kiss is slow-moving \u2014 shunpo to a minion sideways the moment she casts. Never run at her in a straight line."
+      },
+      {
+        "type": "punish",
+        "ability": "Charm (E) down",
+        "detail": "12s window with zero defense. Shunpo in, full combo, Death Lotus, Ignite."
+      },
+      {
+        "type": "counter",
+        "ability": "Spirit Rush (R)",
+        "detail": "Don't chase dashes with your own \u2014 wait out all three, THEN shunpo. Her R is her escape and her damage."
+      }
+    ],
+    "waveManagement": "Let the wave push to your tower and look for river roams \u2014 Katarina wins games bot, not lanes mid. Hard-shove before every roam so she loses plates answering you.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "yasuo-vs-katarina",
+    "playerChampion": "yasuo",
+    "enemyChampion": "katarina",
+    "role": "mid",
+    "difficulty": "medium",
+    "summary": "Wind Wall blocks her daggers and shurikens; her Death Lotus is the threat. Farm for two items and stat-check her every fight.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "Lifesteal outlasts her burst window; the slow stops her from walking out of your autos."
+        },
+        {
+          "itemId": "mercury-treads",
+          "timing": "first back",
+          "reason": "Tenacity plus MR against a magic-damage assassin \u2014 everything she does is magic."
+        },
+        {
+          "itemId": "infinity-edge",
+          "timing": "second item",
+          "reason": "Your doubled crit chance deletes her before Death Lotus finishes channeling."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "plated-steelcaps",
+          "reason": "All of her damage is magic \u2014 armor boots do literally nothing here."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "last-stand",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating absorbs her Q-E-dagger rotation; Second Wind doesn't help against burst like hers."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts her reset-healing from Conqueror runes and kills her at the edge of your E-Q range."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "She can't touch you in your own wave. Stack Q3 and zone her off every last hit."
+      },
+      {
+        "phase": "Level 4",
+        "advantage": "player",
+        "detail": "Wind Wall eats Bouncing Blade entirely. Dash through minions and force her to Shunpo defensively."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Death Lotus is magic damage over time \u2014 Wind Wall doesn't block it. Last Breath HER to interrupt the channel."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Blade of the Ruined King and she can't burst you through lifesteal. Stat-check every river fight."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Bouncing Blade (Q) daggers",
+        "detail": "Pickup zones are her damage. Wind Wall the shuriken, then stand AWAY from the dagger's landing spot."
+      },
+      {
+        "type": "punish",
+        "ability": "Shunpo (E) used",
+        "detail": "No escape for 16s. Dash-chase her through the wave and auto her down."
+      },
+      {
+        "type": "counter",
+        "ability": "Death Lotus (R)",
+        "detail": "Last Breath interrupts it mid-channel. Save your tornado exclusively for this after level 5."
+      }
+    ],
+    "waveManagement": "Freeze near your tower and deny her the short lane she wants. If she roams, hard-shove and take plates \u2014 never follow her into river fog where her daggers control the fight.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "katarina-vs-yasuo",
+    "playerChampion": "katarina",
+    "enemyChampion": "yasuo",
+    "role": "mid",
+    "difficulty": "hard",
+    "summary": "Wind Wall blocks your bread and butter. Roam to win \u2014 if you must lane, bait the wall and tornado before committing.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "mercury-treads",
+          "timing": "first back",
+          "reason": "Tenacity shrinks his tornado and knockup windows; MR blunts his mixed burst."
+        },
+        {
+          "itemId": "ludens-echo",
+          "timing": "first core item",
+          "reason": "Ability burst bypasses Wind Wall \u2014 it only blocks projectiles, not your daggers' pickup damage."
+        },
+        {
+          "itemId": "infinity-orb",
+          "timing": "second item",
+          "reason": "Execute damage kills him through lifesteal before he heals back."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Extended auto-trades are exactly what his passive shield and lifesteal want."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "electrocute",
+        "sudden-impact",
+        "cheap-shot",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "reason": "Cheap Shot true damage punishes his tornado-miss windows without walking into auto range."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite is mandatory against his lifesteal rush. Use it early in the combo, not as an afterthought."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "enemy",
+        "detail": "He bullies you off every CS. Farm with Q bounces and give up melee last hits \u2014 you out-roam him later."
+      },
+      {
+        "phase": "Level 4-5",
+        "advantage": "even",
+        "detail": "Bait Wind Wall with a Q throw, then go in when it's down. Never Death Lotus into a fresh tornado."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "If he holds Q3 for you, roam instead. Your river kills are worth more than his plate gold."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Luden's + Orb burst ignores his Wind Wall entirely. Catch him in side lanes before Blade of the Ruined King completes."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Steel Tempest (Q3)",
+        "detail": "The tornado sets up Last Breath. Shunpo sideways to a dagger the moment he starts the spin animation."
+      },
+      {
+        "type": "punish",
+        "ability": "Wind Wall (W) down",
+        "detail": "26s cooldown. Q-E-W-R all-in the second it expires \u2014 he has zero projectile defense."
+      },
+      {
+        "type": "counter",
+        "ability": "Way of the Wanderer (passive)",
+        "detail": "His shield charges as he moves. Throw a single Q to pop it before your real combo \u2014 never engage into a glowing shield."
+      }
+    ],
+    "waveManagement": "Bounce waves off his tower and roam bot \u2014 that's your win condition. If he freezes, call your jungler; Katarina alone cannot break a Yasuo freeze without shunpoing to her death.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "seraphine-vs-zed",
+    "playerChampion": "seraphine",
+    "enemyChampion": "zed",
+    "role": "mid",
+    "difficulty": "hard",
+    "summary": "Seraphine's wave clear keeps her safe but one Death Mark ends her. Rush Stasis, hold Beat Drop for his shadow, and out-scale.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "stasis-enchant",
+          "timing": "T2 boots + enchant",
+          "reason": "Stasis denies Death Mark's pop \u2014 without it you're a free kill post-5."
+        },
+        {
+          "itemId": "harmonic-echo",
+          "timing": "second item",
+          "reason": "Your double-cast W heals through his poke between all-ins."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "Late-game teamfight damage \u2014 where you actually win this matchup."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "nashors-tooth",
+          "reason": "Auto-attacking Zed is suicide \u2014 stay at max ability range."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aery",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "aery",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating survives his W-Q-E combo \u2014 the extra poke damage from Manaflow isn't worth dying for."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "barrier"
+      ],
+      "reason": "Barrier holds above Death Mark's threshold; Heal's movement speed won't save you from a shadow swap."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-4",
+        "advantage": "player",
+        "detail": "Your Q outranges his entire kit. Double-cast poke and make him farm under tower."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "enemy",
+        "detail": "Death Mark kills from half. Beat Drop as he shadows in \u2014 root him mid-combo and run."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "even",
+        "detail": "Stasis up means you can wave-clear safely. Use it, then look for Encore picks."
+      },
+      {
+        "phase": "3 Items",
+        "advantage": "player",
+        "detail": "You're a teamfight god; he's a single-target assassin. Group and make him irrelevant."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Living Shadow (W) forward",
+        "detail": "Cast Beat Drop at your own feet \u2014 it roots him the moment he swaps to the shadow."
+      },
+      {
+        "type": "punish",
+        "ability": "Razor Shuriken (Q) used",
+        "detail": "No poke for 8s. Double-cast High Note and chip him out of his own lane."
+      },
+      {
+        "type": "counter",
+        "ability": "Death Mark (R)",
+        "detail": "Stage Presence double-cast Surround Sound + Stasis the pop. Then Encore him under your tower as he reappears."
+      }
+    ],
+    "waveManagement": "Perma-shove with High Note and look for cross-map plays \u2014 you cannot kill him alone but you win every 5v5. Ward both river brushes; his roams are how he stays relevant.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "zed-vs-seraphine",
+    "playerChampion": "zed",
+    "enemyChampion": "seraphine",
+    "role": "mid",
+    "difficulty": "easy",
+    "summary": "Seraphine is a free lane for Zed \u2014 no escape, no armor, one skillshot. Shadow dodge the Beat Drop and collect the kill.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "timing": "first core item",
+          "reason": "Movement speed makes her slow-root irrelevant; lethality deletes her health bar."
+        },
+        {
+          "itemId": "duskblade-of-draktharr",
+          "timing": "second item",
+          "reason": "Raw burst \u2014 she builds support items, not armor."
+        },
+        {
+          "itemId": "edge-of-night",
+          "timing": "third item",
+          "reason": "Spell shield blocks Beat Drop or Encore in teamfights."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "mortal-reminder",
+          "reason": "She has no armor \u2014 flat lethality is strictly better."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "electrocute",
+        "sudden-impact",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "nimbus-cloak"
+      ],
+      "reason": "Default is perfect \u2014 nothing about this lane changes your burst pattern."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts her Surround Sound heal and finishes every all-in."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "even",
+        "detail": "Her double-cast poke is real. Farm with Q and wait \u2014 she can't stop you at level 4."
+      },
+      {
+        "phase": "Level 4-5",
+        "advantage": "player",
+        "detail": "W-Q-E-Ignite kills from 60%. Shadow sideways to dodge Beat Drop and she has nothing."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Death Mark one-shots through Heal. Kill her, then roam bot with both summoners."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Youmuu's and she can't exist in the same screen. Take tower and spread the lead to her team."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Beat Drop (E)",
+        "detail": "Living Shadow sideways \u2014 the slow-root is her only defense. If she holds it, walk up and force the cast."
+      },
+      {
+        "type": "punish",
+        "ability": "Stage Presence (passive) spent",
+        "detail": "Her double-cast is down \u2014 she has no burst and no shield rotation. All-in immediately."
+      },
+      {
+        "type": "counter",
+        "ability": "Encore (R)",
+        "detail": "Shadow swap the moment she starts the channel. If you get charmed, don't panic-cast \u2014 wait it out and re-engage."
+      }
+    ],
+    "waveManagement": "Freeze near your tower and let her overextend \u2014 she has no dash and dies to every gank. After kills, shove and roam bot before her teamfight scaling kicks in.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "ahri-vs-yasuo",
+    "playerChampion": "ahri",
+    "enemyChampion": "yasuo",
+    "role": "mid",
+    "difficulty": "hard",
+    "summary": "Wind Wall blocks Charm and Orb outright. Play around its 26s cooldown \u2014 outside of it, Yasuo owns the trade pattern.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "ludens-echo",
+          "timing": "first core item",
+          "reason": "Burst damage from Fox-Fire and Spirit Rush bolts \u2014 none of which Wind Wall can block."
+        },
+        {
+          "itemId": "stasis-enchant",
+          "timing": "T2 boots + enchant",
+          "reason": "Stasis his Last Breath follow-up and wait for your cooldowns."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "One-combo him the moment Wind Wall is on cooldown."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "nashors-tooth",
+          "reason": "Auto-attacking into his passive shield and stacking attack speed is a losing trade every time."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "electrocute",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "phase-rush",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "bone-plating"
+      ],
+      "reason": "Phase Rush lets you proc and leave before his Lethal Tempo stacks \u2014 the run-and-gun pattern this lane demands."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "barrier"
+      ],
+      "reason": "Barrier survives his Last Breath all-in. Charm alone is usually enough kill pressure on a wall-less Yasuo."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "He has no wall yet. Auto-attack him for every CS and charm any dash forward."
+      },
+      {
+        "phase": "Level 3",
+        "advantage": "even",
+        "detail": "Wind Wall exists. Never cast Orb or Charm through it \u2014 cast when it's down or from angles it can't cover."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Last Breath combos off his tornado. Spirit Rush sideways the moment he stacks Q3."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Luden's burst through Fox-Fire kills him before his lifesteal ramps. Force fights in short windows."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Steel Tempest (Q3)",
+        "detail": "The tornado sets up Last Breath. Spirit Rush perpendicular \u2014 never in a straight line he can lead."
+      },
+      {
+        "type": "punish",
+        "ability": "Wind Wall (W) down",
+        "detail": "26s of pure vulnerability. Charm, Orb, Fox-Fire, Spirit Rush \u2014 the full package."
+      },
+      {
+        "type": "counter",
+        "ability": "Last Breath (R)",
+        "detail": "He appears behind you \u2014 Charm instantly when he lands. If he ults your teammate, Spirit Rush in and burst him mid-channel."
+      }
+    ],
+    "waveManagement": "Keep the wave just outside your tower and poke through the gaps between walls. Don't chase him into his minion wave \u2014 his dash resets live there and yours don't.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "yasuo-vs-ahri",
+    "playerChampion": "yasuo",
+    "enemyChampion": "ahri",
+    "role": "mid",
+    "difficulty": "medium",
+    "summary": "Wind Wall deletes her main damage and CC. Dash through her minion wave and Yasuo stat-checks every trade post-3.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "Lifesteal sustains her poke; the slow stops her from kiting your dashes."
+        },
+        {
+          "itemId": "mercury-treads",
+          "timing": "first back",
+          "reason": "Tenacity shrinks her Charm and MR blunts her burst \u2014 she's pure magic damage."
+        },
+        {
+          "itemId": "infinity-edge",
+          "timing": "second item",
+          "reason": "Doubled crit chance two-shots her before Spirit Rush resets matter."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "plated-steelcaps",
+          "reason": "Every point of her damage is magic \u2014 armor boots are dead gold."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "last-stand",
+        "second-wind"
+      ],
+      "recommended": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "last-stand",
+        "second-wind"
+      ],
+      "reason": "Default is ideal \u2014 Second Wind absorbs her poke while Lethal Tempo stacks through your dashes."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts her Essence Theft heal during your all-in window."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "even",
+        "detail": "She outranges you. Stack Q3 on the wave and threaten the tornado \u2014 she has to respect it."
+      },
+      {
+        "phase": "Level 3",
+        "advantage": "player",
+        "detail": "Wind Wall blocks Orb AND Charm. Dash in when she casts and she's left with Fox-Fire only."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Spirit Rush kites you. Save your tornado for the moment she dashes \u2014 Last Breath the second cast."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Blade of the Ruined King and she can't poke you out. Extended fights are yours every time."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Charm (E)",
+        "detail": "Wind Wall it at your feet or dash sideways mid-animation. Getting charmed in her wave is the only way you lose."
+      },
+      {
+        "type": "punish",
+        "ability": "Spirit Rush (R) cast 1",
+        "detail": "Track the charges. After the third dash she's a stationary mage \u2014 chase her down the lane."
+      },
+      {
+        "type": "counter",
+        "ability": "Essence Theft (passive)",
+        "detail": "Her heal stacks off ability hits. Engage when she's unstacked \u2014 no glow means no surprise heal."
+      }
+    ],
+    "waveManagement": "Stack your wave and freeze just outside your tower \u2014 her dashes are yours to punish in the long lane. If she roams, hard-shove and take plates; she can't match your tower damage.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "jinx-vs-miss-fortune",
+    "playerChampion": "jinx",
+    "enemyChampion": "miss-fortune",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "MF out-pokes Jinx levels 1-5; Jinx out-ranges and out-scales after one item. Dodge Double Up bounces and farm for two items.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "berserkers-greaves",
+          "timing": "first back",
+          "reason": "Attack speed for wave clear and early trades; movement speed dodges Make It Rain."
+        },
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "Life steal answers her poke war; the slow keeps her in rocket range."
+        },
+        {
+          "itemId": "infinity-edge",
+          "timing": "second item",
+          "reason": "Fishbones rockets crit harder than anything in her kit."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "reason": "Jinx wants front-to-back teamfights, not assassin burst windows."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "recommended": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "reason": "Default is ideal \u2014 Second Wind keeps you healthy through her poke while Lethal Tempo ramps for the all-in."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "heal"
+      ],
+      "reason": "Heal's movement speed helps dodge Bullet Time's cone and Double Up bounces."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "enemy",
+        "detail": "Love Tap + Double Up chunks you. Stand away from your low-health minions \u2014 the bounce hits YOU, not your support."
+      },
+      {
+        "phase": "Levels 3-5",
+        "advantage": "even",
+        "detail": "Flame Chompers stop her Bullet Time channel. Zap! her when she steps up for Love Tap procs."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Fishbones rockets outrange her entire kit. Poke her under tower and take plates with Get Excited!."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Infinity Edge and you melt her before Bullet Time finishes channeling. Force every objective fight."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Double Up (Q)",
+        "detail": "The bounce crits if the first target dies. Never stand behind a dying minion \u2014 that's where the bullet lands."
+      },
+      {
+        "type": "punish",
+        "ability": "Make It Rain (E) used",
+        "detail": "Her only self-peel is down for 18s. Flame Chompers forward and chase with Pow-Pow stacks."
+      },
+      {
+        "type": "counter",
+        "ability": "Bullet Time (R)",
+        "detail": "Flame Chompers the channel or Zap! her mid-firing. Never stand in the cone \u2014 Get Excited! speed leaves the moment it starts."
+      }
+    ],
+    "waveManagement": "Let the wave push to you early \u2014 MF freezes are shallow and you farm safely under tower. After first item, slow-push waves and crash them to take plates during her recalls.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "miss-fortune-vs-jinx",
+    "playerChampion": "miss-fortune",
+    "enemyChampion": "jinx",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "MF bullies Jinx early and must translate it into tower plates before the rocket launcher out-ranges everything.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "timing": "first core item",
+          "reason": "Lethality spikes early \u2014 exactly when Jinx is weakest. Movement speed sets up Bullet Time angles."
+        },
+        {
+          "itemId": "edge-of-night",
+          "timing": "second item",
+          "reason": "Blocks Flame Chompers or Zap! so Bullet Time completes."
+        },
+        {
+          "itemId": "infinity-edge",
+          "timing": "third item",
+          "reason": "Crit scaling for Double Up bounces once the game goes late."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Poke and burst win this lane \u2014 sustained on-hit fights favor her Pow-Pow stacking."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "fleet-footwork",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "sweet-tooth"
+      ],
+      "recommended": [
+        "fleet-footwork",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating eats her Zap! poke and rocket harass \u2014 you win short trades anyway, so protect them."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "heal"
+      ],
+      "reason": "Heal matches her heal and keeps you in lane to press the early advantage."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "Love Tap + Double Up outranges everything she has. Bounce shots off dying minions onto her constantly."
+      },
+      {
+        "phase": "Levels 3-5",
+        "advantage": "player",
+        "detail": "Make It Rain zones her off the wave entirely. Freeze the lane and deny."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "even",
+        "detail": "Youmuu's burst still chunks her, but Fishbones rockets outrange Make It Rain. Fight in bushes, not in the open lane."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "enemy",
+        "detail": "Her rocket crits out-scale your burst. End the game or group \u2014 side-laning against Jinx is how you throw."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Zap! (W)",
+        "detail": "The slow sets up her Flame Chompers. Strafe perpendicular \u2014 it's a thin line skillshot."
+      },
+      {
+        "type": "punish",
+        "ability": "Flame Chompers (E) used",
+        "detail": "24s cooldown and zero self-peel. Strut at her and channel Bullet Time in the open lane."
+      },
+      {
+        "type": "counter",
+        "ability": "Get Excited! (passive)",
+        "detail": "After any takedown she becomes the fastest champion on the map. Disengage fully \u2014 don't give her the reset chain."
+      }
+    ],
+    "waveManagement": "Freeze near your tower levels 1-5 and make her walk up into Double Up range for every CS. Crash waves before dragon and force fights while you're stronger.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "kaisa-vs-ezreal",
+    "playerChampion": "kaisa",
+    "enemyChampion": "ezreal",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "Kai'Sa all-ins harder but Ezreal pokes from outside her range. Plasma stacks on his Mystic Shot windows, then Killer Instinct to finish.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "Life steal answers his poke; plasma detonations stack with the on-hit damage."
+        },
+        {
+          "itemId": "nashors-tooth",
+          "timing": "second item",
+          "reason": "Evolves Void Seeker and Supercharge \u2014 the two-ability spike that kills Ezreal through Arcane Shift."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "Full hybrid scaling turns your passive into an execute."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "reason": "Kai'Sa scales with attack speed and AP evolution thresholds, not lethality."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "recommended": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "reason": "Default is ideal \u2014 Second Wind absorbs Mystic Shot poke while Lethal Tempo powers all-ins."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "heal"
+      ],
+      "reason": "Heal matches his and gives the movement speed to dodge Mystic Shot skillshots."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "enemy",
+        "detail": "His Mystic Shot outranges everything. Farm with Icathian Rain and dodge \u2014 don't contest the poke war."
+      },
+      {
+        "phase": "Levels 3-5",
+        "advantage": "even",
+        "detail": "Plasma stacks on his Mystic Shot cooldown windows. Void Seeker him when he walks up for Essence Flux."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Killer Instinct follows his Arcane Shift. Mark him with plasma first \u2014 the dash is not an escape."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Blade of the Ruined King and Supercharge let you run him down. Force all-ins whenever his E is down."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Mystic Shot (Q)",
+        "detail": "Its hit refunds his cooldowns. Stand behind minions \u2014 every dodge makes his whole kit weaker."
+      },
+      {
+        "type": "punish",
+        "ability": "Arcane Shift (E) used",
+        "detail": "26s cooldown with no escape. Killer Instinct the moment it's spent \u2014 he's a sitting duck."
+      },
+      {
+        "type": "counter",
+        "ability": "Trueshot Barrage (R)",
+        "detail": "Supercharge sideways out of the channel line. Never recall in a spot he's already fired at."
+      }
+    ],
+    "waveManagement": "Keep the wave near your tower early so he can't poke at max range. After first item, slow-push and crash \u2014 he loses plates badly under pressure and can't defend with his wave clear.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "ezreal-vs-kaisa",
+    "playerChampion": "ezreal",
+    "enemyChampion": "kaisa",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "Ezreal pokes Kai'Sa off the wave and out-ranges her all game. Save Arcane Shift for Killer Instinct and the lane is safe.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "manamune",
+          "timing": "first core item",
+          "reason": "Mana and scaling AD \u2014 Mystic Shot spam is your entire lane presence."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "second item",
+          "reason": "Spellblade procs on every Mystic Shot make your poke devastating."
+        },
+        {
+          "itemId": "seryldas-grudge",
+          "timing": "third item",
+          "reason": "Slow on hit keeps her out of plasma-stacking range."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "On-hit builds want extended fights \u2014 her plasma detonations win those."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "first-strike",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "first-strike",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "manaflow-band"
+      ],
+      "reason": "Default is optimal \u2014 First Strike gold from max-range Mystic Shots accelerates your two-item spike."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "heal"
+      ],
+      "reason": "Heal's movement speed dodges Void Seeker and escapes her Killer Instinct follow-up."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "Mystic Shot outranges her everything. Poke her for every CS and stack First Strike gold."
+      },
+      {
+        "phase": "Levels 4-5",
+        "advantage": "player",
+        "detail": "Essence Flux + Mystic Shot chunks her to half. Never let her stack plasma for free."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Killer Instinct closes the gap. Hold Arcane Shift exclusively for it \u2014 if you E forward, you die."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Trinity Force poke from a screen away. She can't teamfight through your poke before objectives."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Void Seeker (W)",
+        "detail": "The long-range plasma stack sets up Killer Instinct. Strafe unpredictably \u2014 it's her only long-range tool."
+      },
+      {
+        "type": "punish",
+        "ability": "Supercharge (E) used",
+        "detail": "No invisibility and no speed for 11s. Essence Flux her and land three Mystic Shots in the window."
+      },
+      {
+        "type": "counter",
+        "ability": "Killer Instinct (R)",
+        "detail": "Arcane Shift THROUGH your tower as she dashes in \u2014 she arrives alone under it and dies."
+      }
+    ],
+    "waveManagement": "Thin waves with Mystic Shot from max range and keep the wave neutral \u2014 Kai'Sa wants an all-in lane, and a stalemate at range is your win condition. Poke and rotate to river fights first.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "jinx-vs-kaisa",
+    "playerChampion": "jinx",
+    "enemyChampion": "kaisa",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "Jinx outranges Kai'Sa but loses the all-in. Keep her at rocket distance and you out-scale; let her stack plasma and you die.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "Life steal survives her poke; the active slow keeps her out of all-in range."
+        },
+        {
+          "itemId": "infinity-edge",
+          "timing": "second item",
+          "reason": "Rocket crits out-damage her entire kit at range."
+        },
+        {
+          "itemId": "runaans-hurricane",
+          "timing": "third item",
+          "reason": "Teamfight spread damage \u2014 where Jinx's range advantage wins games."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "reason": "Assassin burst fights her on her terms \u2014 Jinx wins front-to-back, not jump-ins."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "recommended": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "reason": "Default is ideal \u2014 Second Wind answers her Void Seeker poke, Lethal Tempo wins the extended rocket fights."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "heal"
+      ],
+      "reason": "Heal + Get Excited! speed makes her Killer Instinct dive fail every time."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "Fishbones rockets outrange her entire kit. Poke her off every CS and don't walk up for minigun stacks."
+      },
+      {
+        "phase": "Levels 4-5",
+        "advantage": "even",
+        "detail": "Her plasma all-in is real now. Zap! her at max range and keep Flame Chompers between you and her."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "even",
+        "detail": "Blade of the Ruined King on both sides \u2014 the player who spaces better wins. Stay at rocket range."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Infinity Edge rockets shred her before she reaches you. Force teamfights at objectives."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Void Seeker (W)",
+        "detail": "Getting marked sets up Killer Instinct. Dodge it and her all-in timer pushes back 10+ seconds."
+      },
+      {
+        "type": "punish",
+        "ability": "Supercharge (E) used",
+        "detail": "No invisibility and no speed for 11s. This is your window \u2014 rockets at max range and Zap!."
+      },
+      {
+        "type": "counter",
+        "ability": "Killer Instinct (R)",
+        "detail": "Flame Chompers at your own feet as she flies in. She arrives rooted and eats your full minigun."
+      }
+    ],
+    "waveManagement": "Slow-push rockets from max range and crash \u2014 she can't defend plates against your range. Ward deep against river dives; her jungler is how she wins this lane.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "kaisa-vs-jinx",
+    "playerChampion": "kaisa",
+    "enemyChampion": "jinx",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "Kai'Sa beats Jinx in the all-in and loses the poke war. Bait her rockets, dodge Zap!, then Killer Instinct onto her face.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "The slow keeps her in plasma-stacking range after her Get Excited! speed wears off."
+        },
+        {
+          "itemId": "nashors-tooth",
+          "timing": "second item",
+          "reason": "Evolves your abilities \u2014 Supercharge invisibility dodges her minigun stacking entirely."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "Passive detonations one-shot her once she's marked."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "manamune",
+          "reason": "Too slow \u2014 Jinx's two-item spike arrives before Muramana stacks."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "recommended": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "reason": "Default is ideal \u2014 Second Wind keeps you healthy through rocket poke until the all-in window opens."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite kills her through Heal in the all-in \u2014 she lives at 5% without it and resets with Get Excited!."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "enemy",
+        "detail": "Her rockets outrange you. Farm with Icathian Rain and give up contested last hits \u2014 you out-scale."
+      },
+      {
+        "phase": "Levels 4-5",
+        "advantage": "even",
+        "detail": "Void Seeker marks into Supercharge trades. Only go in when Flame Chompers are down."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Killer Instinct onto her when she overextends with rockets. She dies before Get Excited! can save her."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Blade of the Ruined King active plus plasma detonations burst her before her minigun stacks."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Zap! (W)",
+        "detail": "The slow sets up her whole kite pattern. Supercharge sideways the moment she casts."
+      },
+      {
+        "type": "punish",
+        "ability": "Flame Chompers (E) used",
+        "detail": "24s cooldown and no self-peel. Killer Instinct immediately \u2014 she has nothing left to stop you."
+      },
+      {
+        "type": "counter",
+        "ability": "Fishbones rockets",
+        "detail": "Her range advantage lives on spacing. Fight in minion waves where her rockets hit one target and your Icathian Rain hits everything."
+      }
+    ],
+    "waveManagement": "Let the wave push to you and farm under tower \u2014 Jinx's freeze is shallow and she's vulnerable to ganks at the river line. Crash before dragon and force the fight while your ult is up.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "miss-fortune-vs-ezreal",
+    "playerChampion": "miss-fortune",
+    "enemyChampion": "ezreal",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "MF's Double Up bounces punish Ezreal's minion positioning. Bait his Arcane Shift and Bullet Time the retreat path.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "timing": "first core item",
+          "reason": "Lethality spikes while he's still stacking Manamune \u2014 your strongest window."
+        },
+        {
+          "itemId": "edge-of-night",
+          "timing": "second item",
+          "reason": "Blocks Mystic Shot poke or his Essence Flux so Bullet Time completes uninterrupted."
+        },
+        {
+          "itemId": "infinity-edge",
+          "timing": "third item",
+          "reason": "Crit Double Up bounces one-shot him from behind his own minion."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Sustained fights let him kite with Mystic Shot cooldowns \u2014 burst beats poke here."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "fleet-footwork",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "sweet-tooth"
+      ],
+      "recommended": [
+        "fleet-footwork",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating negates Mystic Shot poke entirely \u2014 Fleet Footwork keeps your trade pattern intact."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "exhaust"
+      ],
+      "reason": "Exhaust keeps him inside Bullet Time's cone \u2014 his only counterplay is walking out of it."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "Love Tap outrades Mystic Shot at close range. Bounce Double Up off dying minions onto him."
+      },
+      {
+        "phase": "Levels 4-5",
+        "advantage": "even",
+        "detail": "He pokes from max range now. Make It Rain his farm path and hold the freeze near your tower."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Bullet Time forces his Arcane Shift. Exhaust him mid-channel and he dies in the cone."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Youmuu's burst deletes half his bar before he can shift. Roam mid with the active speed."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Mystic Shot (Q)",
+        "detail": "It refunds his cooldowns on hit \u2014 stand behind minions and his entire kit slows down."
+      },
+      {
+        "type": "punish",
+        "ability": "Arcane Shift (E) used",
+        "detail": "26s cooldown. Strut at him, Make It Rain the retreat, channel Bullet Time in the open."
+      },
+      {
+        "type": "counter",
+        "ability": "Trueshot Barrage (R)",
+        "detail": "Strut's movement speed walks you out of the channel. Never recall in a straight line he's already fired down."
+      }
+    ],
+    "waveManagement": "Freeze near your tower \u2014 he can't farm into Double Up range without losing half his health. When he roams mid, hard-shove and take plates; his tower defense is weak under pressure.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "ezreal-vs-miss-fortune",
+    "playerChampion": "ezreal",
+    "enemyChampion": "miss-fortune",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "Ezreal out-ranges MF and dodges her Bullet Time with Arcane Shift. Mystic Shot her off the wave and win the poke war.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "manamune",
+          "timing": "first core item",
+          "reason": "Mana sustain for endless Mystic Shot poke; scales into mid-game."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "second item",
+          "reason": "Spellblade procs chunk her through Love Tap advantage."
+        },
+        {
+          "itemId": "seryldas-grudge",
+          "timing": "third item",
+          "reason": "Slow on hit keeps her in Mystic Shot range permanently."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "reason": "You win through range and poke, not burst windows she controls with Make It Rain."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "first-strike",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "first-strike",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating blocks her Double Up bounce trade \u2014 the one way she wins short exchanges."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "heal"
+      ],
+      "reason": "Heal's movement speed walks you out of Bullet Time's cone and dodges Make It Rain."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "Mystic Shot outranges Love Tap. Poke her for every CS and stack First Strike gold."
+      },
+      {
+        "phase": "Levels 4-5",
+        "advantage": "player",
+        "detail": "Essence Flux + Q combo chunks her to half. She can't answer from inside your range."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Hold Arcane Shift for Bullet Time \u2014 the moment she channels, shift sideways and punish."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Trinity Force poke is unbearable. Rotate to objectives first and win the fight before it starts."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Double Up (Q)",
+        "detail": "The bounce crits off dying minions. Never stand directly behind your own low-health creep."
+      },
+      {
+        "type": "punish",
+        "ability": "Strut (W) used",
+        "detail": "Her movement speed burst is down. Land Essence Flux and three Mystic Shots while she can't dodge."
+      },
+      {
+        "type": "counter",
+        "ability": "Bullet Time (R)",
+        "detail": "Arcane Shift perpendicular to the cone. If you're caught, Heal for speed and walk \u2014 don't flash in panic."
+      }
+    ],
+    "waveManagement": "Thin the wave with Mystic Shot and keep it in the middle \u2014 MF's freeze is dangerous near her tower where Double Up bounces are free. Poke, shove, and rotate to dragon first.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "miss-fortune-vs-kaisa",
+    "playerChampion": "miss-fortune",
+    "enemyChampion": "kaisa",
+    "role": "bot",
+    "difficulty": "medium",
+    "summary": "MF pokes Kai'Sa off every CS early; Kai'Sa's all-in kills her later. Win the lane before her first item or lose the game.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "timing": "first core item",
+          "reason": "Lethality explodes her small health pool before she can stack plasma."
+        },
+        {
+          "itemId": "serpents-fang",
+          "timing": "second item",
+          "reason": "Killer Instinct's shield is her survival tool \u2014 this item deletes it."
+        },
+        {
+          "itemId": "infinity-edge",
+          "timing": "third item",
+          "reason": "Double Up crits one-shot her through the mid-game."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "reason": "Extended fights stack her plasma \u2014 burst windows are your only safe trades."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "fleet-footwork",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "sweet-tooth"
+      ],
+      "recommended": [
+        "fleet-footwork",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "bone-plating"
+      ],
+      "reason": "Bone Plating eats her Void Seeker poke and Icathian Rain trades \u2014 protect your short-trade advantage."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "exhaust"
+      ],
+      "reason": "Exhaust survives her Killer Instinct all-in \u2014 it's the only way she kills you through Strut."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "player",
+        "detail": "Love Tap + Double Up outranges her everything. Bounce shots and freeze the wave near your tower."
+      },
+      {
+        "phase": "Levels 4-5",
+        "advantage": "player",
+        "detail": "Make It Rain zones her off the wave. Deny CS and take plates on every recall."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Killer Instinct closes the gap. Exhaust her the moment she flies in and Bullet Time the landing."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "enemy",
+        "detail": "Her evolution spike out-bursts you. Group and ult in teamfights before she picks you off alone."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Void Seeker (W)",
+        "detail": "Getting marked sets up her all-in. Strafe perpendicular \u2014 it's a thin skillshot line."
+      },
+      {
+        "type": "punish",
+        "ability": "Supercharge (E) used",
+        "detail": "No invisibility and no speed for 11s. Strut forward and channel Bullet Time in her retreat path."
+      },
+      {
+        "type": "counter",
+        "ability": "Killer Instinct (R)",
+        "detail": "Exhaust the moment she arrives \u2014 her shield and damage drop to nothing, and she's alone in your team."
+      }
+    ],
+    "waveManagement": "Freeze hard near your tower for the first 5 minutes \u2014 she can't walk up without eating Double Up. Convert every recall into plates; the clock is ticking until her item spike.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "kaisa-vs-miss-fortune",
+    "playerChampion": "kaisa",
+    "enemyChampion": "miss-fortune",
+    "role": "bot",
+    "difficulty": "hard",
+    "summary": "Kai'Sa loses the poke war and wins the all-in. Survive to first item, dodge Double Up bounces, then Killer Instinct onto her face.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "blade-of-the-ruined-king",
+          "timing": "first core item",
+          "reason": "Life steal answers her poke; the active slow keeps her in plasma range after Strut fades."
+        },
+        {
+          "itemId": "nashors-tooth",
+          "timing": "second item",
+          "reason": "Ability evolution \u2014 Supercharge invisibility dodges Bullet Time entirely."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "Passive detonations pop her the moment plasma is fully stacked."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "reason": "Your win condition is plasma stacks and evolution thresholds, not lethality."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "lethal-tempo",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "recommended": [
+        "fleet-footwork",
+        "brutal",
+        "legend-alacrity",
+        "coup-de-grace",
+        "second-wind"
+      ],
+      "reason": "Fleet Footwork plus Second Wind keeps you healthy through her poke until the all-in window opens."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "heal"
+      ],
+      "reason": "Heal's movement speed escapes Make It Rain and Bullet Time; you need it to survive the lane phase."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "enemy",
+        "detail": "Her Love Tap bullies every CS. Farm with Icathian Rain from range and give up contested last hits."
+      },
+      {
+        "phase": "Levels 4-5",
+        "advantage": "enemy",
+        "detail": "Double Up bounces chunk you through the wave. Stand away from dying minions \u2014 never behind your creep line."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Killer Instinct is your answer to Bullet Time \u2014 fly to her mid-channel and the fight flips."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Blade of the Ruined King plus plasma detonations burst her before her second rotation. Force fights now."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Double Up (Q)",
+        "detail": "The crit bounce comes off dying minions. Keep your low-health minions between you and nothing \u2014 stand to the side."
+      },
+      {
+        "type": "punish",
+        "ability": "Make It Rain (E) used",
+        "detail": "No self-peel for 18s. Supercharge forward, stack plasma, and force her Flash."
+      },
+      {
+        "type": "counter",
+        "ability": "Bullet Time (R)",
+        "detail": "Supercharge invisibility walks you out of the cone, or Killer Instinct onto her to cancel the channel with burst."
+      }
+    ],
+    "waveManagement": "Let the wave push to you and farm safely \u2014 MF freezes are shallow and she overextends for poke. Call your jungler; she has no escape and dies to every gank after Strut is spent.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "lee-sin-vs-vi",
+    "playerChampion": "lee-sin",
+    "enemyChampion": "vi",
+    "role": "jungle",
+    "difficulty": "medium",
+    "summary": "Lee Sin out-duels Vi early and invades her jungle; Vi out-scales with her point-and-click ultimate. End the game before 3 items.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "black-cleaver",
+          "timing": "first core item",
+          "reason": "Armor shred and health for early skirmishes \u2014 her Denting Blows shreds you back, so shred first."
+        },
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "first back",
+          "reason": "Her entire kit is physical \u2014 armor boots win the level 3 duel outright."
+        },
+        {
+          "itemId": "steraks-gage",
+          "timing": "second item",
+          "reason": "Survives her Assault and Battery burst so you can kick her into your team."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "mortal-reminder",
+          "reason": "She builds armor later \u2014 early game you want raw stats, not penetration."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "triumph",
+        "legend-tenacity",
+        "last-stand",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "conqueror",
+        "triumph",
+        "legend-tenacity",
+        "last-stand",
+        "nimbus-cloak"
+      ],
+      "reason": "Default is ideal \u2014 Nimbus Cloak after Smite wins every chase and escape in river fights."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "smite"
+      ],
+      "recommended": [
+        "flash",
+        "smite"
+      ],
+      "reason": "Standard jungle setup \u2014 Flash kick into your team is the playmaker this matchup needs."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Level 2",
+        "advantage": "player",
+        "detail": "Your red-buff invade beats her level 2. Ward her blue and take it \u2014 she can't contest Sonic Wave + Smite."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "player",
+        "detail": "Safeguard + Iron Will sustain beats her trading. Duel her at every scuttle and counter-gank her lanes."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Assault and Battery locks you down for her laner. Never fight her near her tower \u2014 kick her AWAY from safety."
+      },
+      {
+        "phase": "3 Items",
+        "advantage": "enemy",
+        "detail": "Her point-and-click ult scales too hard. Force baron-side teamfights and kick her carry into your team instead."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Vault Breaker (Q)",
+        "detail": "The charged dash knocks you back and sets up her whole kit. Sidestep it and she's stranded for 12s."
+      },
+      {
+        "type": "punish",
+        "ability": "Relentless Force (E) used",
+        "detail": "Her wave-clear and trading tool is down. Invade her camps during the cooldown windows."
+      },
+      {
+        "type": "counter",
+        "ability": "Cease and Desist (R)",
+        "detail": "Dragon's Rage kicks her mid-dash away from your carry \u2014 if she ults YOU, Safeguard to a teammate and waste her suppression."
+      }
+    ],
+    "waveManagement": "Jungle pathing: 3-camp into her weak side. Counter-gank mid and bot \u2014 her pre-5 ganks are predictable Vault Breaker angles, and Sonic Wave from fog punishes every one.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "vi-vs-lee-sin",
+    "playerChampion": "vi",
+    "enemyChampion": "lee-sin",
+    "role": "jungle",
+    "difficulty": "medium",
+    "summary": "Vi loses early duels and wins post-5 ganks. Path away from his invade, farm for Trinity Force, then lock down his carries.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "plated-steelcaps",
+          "timing": "first back",
+          "reason": "Armor for the level 3 duel you're trying to avoid \u2014 it makes the difference when he invades anyway."
+        },
+        {
+          "itemId": "trinity-force",
+          "timing": "first core item",
+          "reason": "Spellblade burst on Denting Blows procs turns your 1v1s around completely."
+        },
+        {
+          "itemId": "steraks-gage",
+          "timing": "second item",
+          "reason": "Survives his kick-in-burst so you can suppress his carry through it."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "youmuus-ghostblade",
+          "reason": "Vi wins with sustained denting-blow fights and suppression, not assassin burst."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "conqueror",
+        "triumph",
+        "legend-tenacity",
+        "last-stand",
+        "nimbus-cloak"
+      ],
+      "recommended": [
+        "conqueror",
+        "triumph",
+        "legend-tenacity",
+        "last-stand",
+        "nimbus-cloak"
+      ],
+      "reason": "Default is ideal \u2014 Tenacity shrinks his Tempest slows and Nimbus Cloak matches his mobility."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "smite"
+      ],
+      "recommended": [
+        "flash",
+        "smite"
+      ],
+      "reason": "Standard setup \u2014 Flash plus Assault and Battery locks a carry regardless of his peel."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Level 2-3",
+        "advantage": "enemy",
+        "detail": "He invades and wins. Start on your strong side, ward your entrances, and give the first scuttle if he contests."
+      },
+      {
+        "phase": "Level 4-5",
+        "advantage": "even",
+        "detail": "Your Denting Blows shred matches his sustain if you commit fully. Fight only with numbers."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Assault and Battery guarantees your ganks. Ignore him and camp his lanes \u2014 he can't counter-gank a locked-down target."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Trinity Force and you stat-check him in every river fight. Force objectives while his team lacks a front line."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Sonic Wave (Q)",
+        "detail": "Vault Breaker sideways the moment he fires \u2014 if it misses, he can't follow up and the duel is yours."
+      },
+      {
+        "type": "punish",
+        "ability": "Safeguard (W) used",
+        "detail": "No shield and no escape for 14s. Chase with Relentless Force and proc Denting Blows three times."
+      },
+      {
+        "type": "counter",
+        "ability": "Dragon's Rage (R)",
+        "detail": "Assault and Battery THROUGH his kick \u2014 your suppression lands after and wastes his disengage entirely."
+      }
+    ],
+    "waveManagement": "Jungle pathing: full clear your weak side away from his invade. Gank lanes he can't counter \u2014 post-5 your point-and-click engage beats his skillshot ganks every time.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "nami-vs-thresh",
+    "playerChampion": "nami",
+    "enemyChampion": "thresh",
+    "role": "support",
+    "difficulty": "medium",
+    "summary": "Nami outranges and out-pokes Thresh but dies to one hook. Punish his lantern plays and hold Aqua Prison for his engage.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "harmonic-echo",
+          "timing": "first core item",
+          "reason": "Ebb and Flow bounces plus Harmonic Echo healing answers every trade he forces."
+        },
+        {
+          "itemId": "staff-of-flowing-water",
+          "timing": "second item",
+          "reason": "Empowers your carry's trades after every heal \u2014 wins the poke war outright."
+        },
+        {
+          "itemId": "protectors-vow",
+          "timing": "third item",
+          "reason": "Shields your carry when he hooks in \u2014 the defensive layer this lane needs."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "ludens-echo",
+          "reason": "Full AP Nami dies to one hook \u2014 support utility wins this lane, not burst."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aery",
+        "font-of-life",
+        "loyalty",
+        "revitalize",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "aery",
+        "font-of-life",
+        "loyalty",
+        "revitalize",
+        "manaflow-band"
+      ],
+      "reason": "Default is ideal \u2014 Aery poke plus Revitalize heals out-trade everything in his kit."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "exhaust"
+      ],
+      "recommended": [
+        "flash",
+        "exhaust"
+      ],
+      "reason": "Exhaust his hooked target's burst \u2014 the moment he commits, your carry survives and you counter-kill."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "player",
+        "detail": "He's melee with one hook. Ebb and Flow poke through the wave and auto him every time he walks up for Relic stacks."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "even",
+        "detail": "Death Sentence is lethal. Stay behind your caster minions and punish his lantern rescues with Aqua Prison."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Tidal Wave stops his engage cold. Hold it for The Box or his flash-hook."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Harmonic Echo healing outlasts his all-in. Poke, heal, repeat \u2014 he runs out of resources first."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Death Sentence (Q)",
+        "detail": "Stand behind minions \u2014 the hook is his whole lane. If he flashes, Tidecaller's Blessing your carry and disengage."
+      },
+      {
+        "type": "punish",
+        "ability": "Dark Passage (W) used",
+        "detail": "The lantern is down for 22s \u2014 his jungler's dive just failed. Step up and bully his carry."
+      },
+      {
+        "type": "counter",
+        "ability": "The Box (R)",
+        "detail": "Tidal Wave through the walls as he engages \u2014 the knockup wastes his entire ultimate window."
+      }
+    ],
+    "waveManagement": "Help your carry slow-push and poke at the bounce point. Never fight in the river choke points where his hook is undodgeable \u2014 lane bushes are yours with Aqua Prison.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "thresh-vs-nami",
+    "playerChampion": "thresh",
+    "enemyChampion": "nami",
+    "role": "support",
+    "difficulty": "medium",
+    "summary": "Thresh kills Nami when Death Sentence lands \u2014 everything else is her poking you out. Flay her heal rhythm and lantern your jungler in.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "protectors-vow",
+          "timing": "first core item",
+          "reason": "Protects your carry through her poke-and-heal pattern when you engage."
+        },
+        {
+          "itemId": "dead-mans-plate",
+          "timing": "second item",
+          "reason": "Movement speed closes the gap before her Aqua Prison can react."
+        },
+        {
+          "itemId": "zeke-convergence",
+          "timing": "third item",
+          "reason": "Your ult empowers your carry's damage after you lock her down."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "harmonic-echo",
+          "reason": "You don't out-heal Nami \u2014 you out-engage her. Build mobility and tank stats."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aftershock",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "pathfinder"
+      ],
+      "recommended": [
+        "aftershock",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "pathfinder"
+      ],
+      "reason": "Default is ideal \u2014 Aftershock absorbs her counter-burst and Pathfinder speeds your river roams."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts her Ebb and Flow healing during your all-in \u2014 without it she heals through your whole combo."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "even",
+        "detail": "Her poke is real. Look for a flash-flay level 2 engage \u2014 her bubble is slow and dodgeable at close range."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "player",
+        "detail": "Hook-flay-lantern gank is lethal. Call your jungler through the river \u2014 she wards late and dies to coordinated dives."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "The Box locks her in place but Tidal Wave disengages you. Engage only when her wave is on cooldown."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Dead Man's Plate speed and she can't kite you. Roam mid with Pathfinder and snowball the map."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Aqua Prison (Q)",
+        "detail": "Walk sideways at close range \u2014 the bubble is slow and telegraphed. Flay her the moment she starts the cast."
+      },
+      {
+        "type": "punish",
+        "ability": "Ebb and Flow (W) used",
+        "detail": "Her heal and damage tool is down for 10s. Hook immediately \u2014 she has nothing left to trade with."
+      },
+      {
+        "type": "counter",
+        "ability": "Tidal Wave (R)",
+        "detail": "Death Sentence mid-wave or wait it out behind terrain. If she ults defensively, her carry is now unprotected."
+      }
+    ],
+    "waveManagement": "Bush control is everything \u2014 stand in lane bushes and threaten hooks through the wave. Roam mid after every crash; Nami's river presence is slow and your lantern ganks are the fastest in the game.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "seraphine-vs-thresh",
+    "playerChampion": "seraphine",
+    "enemyChampion": "thresh",
+    "role": "support",
+    "difficulty": "hard",
+    "summary": "Seraphine outranges Thresh but one hook ends her. Poke from max range, hold Beat Drop for his engage, and out-scale the teamfight.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "harmonic-echo",
+          "timing": "first core item",
+          "reason": "Double-cast Surround Sound plus Harmonic Echo heals through every trade he forces."
+        },
+        {
+          "itemId": "staff-of-flowing-water",
+          "timing": "second item",
+          "reason": "Empowers your carry after every shield \u2014 wins the attrition war."
+        },
+        {
+          "itemId": "rabadons-deathcap",
+          "timing": "third item",
+          "reason": "Late-game teamfight damage where you out-scale his engage comp."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "ludens-echo",
+          "reason": "Full AP builds die to one hook \u2014 survive first, damage second."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aery",
+        "scorch",
+        "mark-of-the-weak",
+        "eyeball-collector",
+        "manaflow-band"
+      ],
+      "recommended": [
+        "aery",
+        "font-of-life",
+        "loyalty",
+        "revitalize",
+        "manaflow-band"
+      ],
+      "reason": "Revitalize and Font of Life keep your carry alive through his all-ins \u2014 poke runes don't matter if you're dead."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "heal"
+      ],
+      "recommended": [
+        "flash",
+        "barrier"
+      ],
+      "reason": "Barrier survives the hook-burst window; Heal is redundant with your own kit's healing."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-3",
+        "advantage": "even",
+        "detail": "High Note poke from outside hook range. Never walk past your caster minion line."
+      },
+      {
+        "phase": "Level 4-5",
+        "advantage": "even",
+        "detail": "Beat Drop stops his engage cold \u2014 hold it exclusively for Death Sentence follow-ups."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "player",
+        "detail": "Encore through his engage turns his all-in into your double-kill. Stand behind your carry and counter-ult."
+      },
+      {
+        "phase": "2 Items",
+        "advantage": "player",
+        "detail": "Your teamfight output dwarfs his utility. Force 5v5s at objectives and make his engage irrelevant."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Death Sentence (Q)",
+        "detail": "Stay behind minions and outside flash-hook range. If he hooks your carry, Encore the follow-up and heal."
+      },
+      {
+        "type": "punish",
+        "ability": "Dark Passage (W) used",
+        "detail": "22s without a rescue tool. Play forward and zone their carry off the wave entirely."
+      },
+      {
+        "type": "counter",
+        "ability": "The Box (R)",
+        "detail": "Double-cast Surround Sound through the walls and walk out \u2014 his ultimate is a cage you can heal through."
+      }
+    ],
+    "waveManagement": "Slow-push from max range and poke at the bounce point. Never contest river vision alone \u2014 your job is surviving lane and winning the dragon fight with Encore.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  },
+  {
+    "id": "thresh-vs-seraphine",
+    "playerChampion": "thresh",
+    "enemyChampion": "seraphine",
+    "role": "support",
+    "difficulty": "medium",
+    "summary": "Thresh's hook is Seraphine's nightmare \u2014 she has no dash and no self-peel besides Beat Drop. Flash-flay and collect.",
+    "itemBuild": {
+      "corePath": [
+        {
+          "itemId": "dead-mans-plate",
+          "timing": "first core item",
+          "reason": "Movement speed closes her poke range before she can react."
+        },
+        {
+          "itemId": "protectors-vow",
+          "timing": "second item",
+          "reason": "Shields your carry through her double-cast burst when you engage."
+        },
+        {
+          "itemId": "zeke-convergence",
+          "timing": "third item",
+          "reason": "Your ultimate empowers the carry you just delivered to her."
+        }
+      ],
+      "avoidItems": [
+        {
+          "itemId": "harmonic-echo",
+          "reason": "You can't out-sustain her poke \u2014 every fight must be an engage, not a war of attrition."
+        }
+      ]
+    },
+    "runeSwap": {
+      "default": [
+        "aftershock",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "pathfinder"
+      ],
+      "recommended": [
+        "glacial-augment",
+        "font-of-life",
+        "bone-plating",
+        "overgrowth",
+        "pathfinder"
+      ],
+      "reason": "Glacial Augment's frost rays after your hook slow her escape to nothing \u2014 the kill threshold this lane needs."
+    },
+    "summonerSpells": {
+      "default": [
+        "flash",
+        "ignite"
+      ],
+      "recommended": [
+        "flash",
+        "ignite"
+      ],
+      "reason": "Ignite cuts her Surround Sound heal during the all-in window \u2014 she survives on healing, not health pool."
+    },
+    "powerSpikes": [
+      {
+        "phase": "Levels 1-2",
+        "advantage": "even",
+        "detail": "Her poke outranges you. Wait for level 2 flash-flay or a minion gap for Death Sentence."
+      },
+      {
+        "phase": "Level 3-4",
+        "advantage": "player",
+        "detail": "Hook-flay-lantern deletes her \u2014 she has no dash and Beat Drop is slow at close range."
+      },
+      {
+        "phase": "Level 5",
+        "advantage": "even",
+        "detail": "Encore counters your engage. Flay her mid-cast or engage from the side where her ult can't hit everyone."
+      },
+      {
+        "phase": "1 Item",
+        "advantage": "player",
+        "detail": "Dead Man's Plate speed and she can't poke you off the wave. Roam mid and snowball."
+      }
+    ],
+    "abilityWindows": [
+      {
+        "type": "dodge",
+        "ability": "Beat Drop (E)",
+        "detail": "The slow-root is her only defense. Flay her the instant she casts it \u2014 it interrupts her rhythm entirely."
+      },
+      {
+        "type": "punish",
+        "ability": "Stage Presence (passive) spent",
+        "detail": "Her double-cast is down. This is your engage window \u2014 hook, flay, ignite, done."
+      },
+      {
+        "type": "counter",
+        "ability": "Encore (R)",
+        "detail": "Engage from fog or the side. If your carry gets charmed, Dark Passage them out and re-engage after."
+      }
+    ],
+    "waveManagement": "Bush control wins this lane \u2014 she can't poke what she can't see. Roam mid after every crash; her river rotations are slow and your lantern ganks punish every one.",
+    "lastUpdated": "2026-10-17",
+    "patchVersion": "7.3"
+  }
+]

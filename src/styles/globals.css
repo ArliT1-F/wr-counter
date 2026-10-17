@@ -1,0 +1,254 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Wild Rift design tokens */
+  --bg-primary: #0a1628;
+  --bg-card: #1a2332;
+  --bg-elevated: #243044;
+  --gold: #c89b3c;
+  --teal: #0ac8b9;
+  --red: #e84057;
+  --green: #00b894;
+  --blue: #0984e3;
+  --orange: #f39c12;
+  --text-primary: #f0e6d2;
+  --text-secondary: #a09b8c;
+  --text-muted: #5b5a56;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Focus visibility for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+button,
+a {
+  -webkit-touch-callout: none;
+}
+
+/* Interactive press states — subtle scale + brightness */
+.pressable {
+  transition: transform 150ms ease, filter 150ms ease, border-color 150ms ease, background-color 150ms ease,
+    box-shadow 150ms ease, opacity 150ms ease;
+}
+.pressable:active {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Page transition: fade + slide-up (200ms ease-out) */
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.page-enter {
+  animation: page-enter 200ms ease-out both;
+}
+
+/* Swap: 180° rotation crossfade (400ms ease-in-out) */
+@keyframes swap-rotate {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(90deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+}
+.swap-anim {
+  animation: swap-rotate 400ms ease-in-out both;
+}
+
+/* Power spike timeline: segments fill left-to-right (500ms stagger) */
+@keyframes fill-in {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.segment-fill {
+  transform-origin: left center;
+  animation: fill-in 500ms ease-out both;
+}
+
+/* Accordion smooth height (300ms ease-in-out) via grid rows trick */
+.accordion-grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+.accordion-grid[data-collapsed='true'] {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+.accordion-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* Toast */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.toast {
+  animation: toast-in 200ms ease-out both;
+}
+
+/* Selected champion: gold border + slight scale-up */
+.selected-champ {
+  border-color: var(--gold) !important;
+  box-shadow: 0 0 0 2px var(--gold), 0 4px 14px rgba(200, 155, 60, 0.35);
+  transform: scale(1.06);
+}
+
+/* Horizontal scroll chips without visible scrollbar */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Onboarding spotlight ring */
+@keyframes spotlight-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 3px var(--gold), 0 0 24px rgba(200, 155, 60, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 6px var(--gold), 0 0 36px rgba(200, 155, 60, 0.75);
+  }
+}
+.spotlight {
+  animation: spotlight-pulse 1.6s ease-in-out infinite;
+  position: relative;
+  z-index: 40;
+  border-radius: var(--radius-md);
+}
+
+/* Respect OS-level reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001s !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------------- Polish: hero, cards, motion ---------------- */
+
+.hero-banner {
+  position: relative;
+  background:
+    radial-gradient(1200px 200px at 15% -30%, rgba(200, 155, 60, 0.22), transparent 60%),
+    radial-gradient(900px 220px at 95% 120%, rgba(10, 200, 185, 0.14), transparent 55%),
+    linear-gradient(135deg, rgba(200, 155, 60, 0.12), rgba(26, 35, 50, 0.4) 55%, rgba(232, 64, 87, 0.10));
+  border: 1px solid rgba(200, 155, 60, 0.28);
+  overflow: hidden;
+}
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 30%, rgba(240, 230, 210, 0.06) 45%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+  background: rgba(10, 22, 40, 0.55);
+  border: 1px solid rgba(200, 155, 60, 0.35);
+}
+
+.card-lift {
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.card-lift:hover {
+  transform: translateY(-2px);
+  border-color: rgba(200, 155, 60, 0.35);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+.cta-glow {
+  animation: cta-breathe 2.6s ease-in-out infinite;
+}
+@keyframes cta-breathe {
+  0%, 100% { box-shadow: 0 6px 18px rgba(200, 155, 60, 0.35); }
+  50% { box-shadow: 0 6px 30px rgba(200, 155, 60, 0.6); }
+}
+
+.pressable:hover {
+  transform: translateY(-1px);
+}
+
+/* Scrollbars (item picker) */
+.max-h-64::-webkit-scrollbar { width: 8px; }
+.max-h-64::-webkit-scrollbar-thumb {
+  background: rgba(200, 155, 60, 0.35);
+  border-radius: 8px;
+}
+.max-h-64::-webkit-scrollbar-track { background: transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .pressable:hover, .card-lift:hover { transform: none; }
+}
