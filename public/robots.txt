@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wr-counter.vercel.app/sitemap.xml

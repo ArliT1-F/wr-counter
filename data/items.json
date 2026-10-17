@@ -1,0 +1,1245 @@
+[
+  {
+    "id": "infinity-edge",
+    "name": "Infinity Edge",
+    "cost": 3400,
+    "category": "attack",
+    "icon": "infinity-edge.png",
+    "stats": {
+      "attackDamage": 55,
+      "critChance": 25
+    },
+    "passive": "Critical strikes deal increased damage.",
+    "buildsInto": []
+  },
+  {
+    "id": "blade-of-the-ruined-king",
+    "name": "Blade of the Ruined King",
+    "cost": 3200,
+    "category": "sustain",
+    "stats": {
+      "attackDamage": 40,
+      "attackSpeed": 25,
+      "vamp": 10
+    },
+    "buildPath": [
+      "vampiric-scepter",
+      "recurve-bow"
+    ],
+    "goodAgainst": [
+      "high-hp",
+      "tanks"
+    ],
+    "buildWhen": "Enemies stack HP or you duel tanks (vs Sion, Mundo, Cho’Gath).",
+    "notes": "On-hit % current HP damage + slow.",
+    "inStore": true,
+    "icon": "blade-of-the-ruined-king.png"
+  },
+  {
+    "id": "bloodthirster",
+    "name": "The Bloodthirster",
+    "cost": 3300,
+    "category": "attack",
+    "icon": "bloodthirster.png",
+    "stats": {
+      "attackDamage": 55,
+      "physicalVamp": 20
+    },
+    "passive": "Bloody: Grants physical vamp. Bloodsworn: Vamp overhealing grants a temporary shield.",
+    "buildsInto": []
+  },
+  {
+    "id": "youmuus-ghostblade",
+    "name": "Youmuu's Ghostblade",
+    "cost": 3000,
+    "category": "attack",
+    "icon": "youmuus-ghostblade.png",
+    "stats": {
+      "attackDamage": 55,
+      "armorPen": 10
+    },
+    "passive": "Gains momentum while moving, granting movement speed at full stacks. Active: burst of movement speed.",
+    "buildsInto": []
+  },
+  {
+    "id": "duskblade-of-draktharr",
+    "name": "Duskblade of Draktharr",
+    "cost": 3000,
+    "category": "damage",
+    "stats": {
+      "attackDamage": 60,
+      "lethality": 15,
+      "cooldownReduction": 15
+    },
+    "buildPath": [
+      "serrated-dirk",
+      "caulfields-warhammer"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "Assassins vs squishies (Zed, Kha’Zix, Rengar).",
+    "notes": "Nightstalker passive burst.",
+    "icon": "duskblade-of-draktharr.png"
+  },
+  {
+    "id": "edge-of-night",
+    "name": "Edge of Night",
+    "cost": 3000,
+    "category": "attack",
+    "icon": "edge-of-night.png",
+    "stats": {
+      "attackDamage": 50,
+      "health": 250
+    },
+    "passive": "Boarding Party: While no allied champions are nearby, you and nearby allied minions gain bonus resistances and deal more damage to structures.",
+    "buildsInto": []
+  },
+  {
+    "id": "serpents-fang",
+    "name": "Serpent's Fang",
+    "cost": 2800,
+    "category": "damage",
+    "stats": {
+      "attackDamage": 55,
+      "lethality": 12
+    },
+    "buildPath": [
+      "serrated-dirk",
+      "long-sword"
+    ],
+    "goodAgainst": [
+      "shield-heavy",
+      "enchanter-supports"
+    ],
+    "buildWhen": "Enemies stack big shields (Sett W, Janna, Riven).",
+    "notes": "Shield-reaver passive cuts through enemy shielding.",
+    "icon": "serpents-fang.png"
+  },
+  {
+    "id": "mortal-reminder",
+    "name": "Mortal Reminder",
+    "cost": 2900,
+    "category": "attack",
+    "icon": "mortal-reminder.png",
+    "stats": {
+      "attackDamage": 35,
+      "armorPen": 30
+    },
+    "passive": "Dealing physical damage applies Grievous Wounds, reducing healing on the target.",
+    "buildsInto": []
+  },
+  {
+    "id": "black-cleaver",
+    "name": "Black Cleaver",
+    "cost": 3000,
+    "category": "attack",
+    "icon": "black-cleaver.png",
+    "stats": {
+      "attackDamage": 40,
+      "health": 200,
+      "abilityHaste": 20
+    },
+    "passive": "Dealing physical damage shreds armor, stacking up to 5 times. Dealing damage grants movement speed.",
+    "buildsInto": []
+  },
+  {
+    "id": "trinity-force",
+    "name": "Trinity Force",
+    "cost": 3700,
+    "category": "attack",
+    "icon": "trinity-force.png",
+    "stats": {
+      "attackDamage": 30,
+      "attackSpeed": 30,
+      "health": 200,
+      "abilityHaste": 20
+    },
+    "passive": "Spellblade: After using an ability, your next attack deals bonus damage. Attacks grant movement speed.",
+    "buildsInto": []
+  },
+  {
+    "id": "steraks-gage",
+    "name": "Sterak's Gage",
+    "cost": 3200,
+    "category": "defense",
+    "stats": {
+      "health": 450,
+      "attackDamage": 20
+    },
+    "buildPath": [
+      "ruby-crystal",
+      "pickaxe"
+    ],
+    "goodAgainst": [
+      "burst",
+      "assassins"
+    ],
+    "buildWhen": "Divers/juggernauts vs burst (Vi, Irelia, Aatrox).",
+    "notes": "Lifeline shield when taking heavy damage.",
+    "icon": "steraks-gage.png"
+  },
+  {
+    "id": "deaths-dance",
+    "name": "Death's Dance",
+    "cost": 3200,
+    "category": "attack",
+    "icon": "deaths-dance.png",
+    "stats": {
+      "attackDamage": 40,
+      "armor": 35,
+      "abilityHaste": 15
+    },
+    "passive": "A portion of damage taken is dealt as bleed over time. Champion takedowns cleanse remaining bleed and heal you.",
+    "buildsInto": []
+  },
+  {
+    "id": "guardian-angel",
+    "name": "Guardian Angel",
+    "cost": 3200,
+    "category": "attack",
+    "icon": "guardian-angel.png",
+    "stats": {
+      "attackDamage": 40,
+      "armor": 40
+    },
+    "passive": "Resurrect: Upon taking lethal damage, revive with a portion of base health and mana.",
+    "buildsInto": []
+  },
+  {
+    "id": "stormrazor",
+    "name": "Stormrazor",
+    "cost": 2900,
+    "category": "attack",
+    "icon": "stormrazor.png",
+    "stats": {
+      "attackDamage": 30,
+      "attackSpeed": 35,
+      "critChance": 25
+    },
+    "passive": "Energized attacks deal bonus magic damage and grant a burst of movement speed.",
+    "buildsInto": []
+  },
+  {
+    "id": "manamune",
+    "name": "Manamune",
+    "cost": 2900,
+    "category": "attack",
+    "icon": "manamune.png",
+    "stats": {
+      "attackDamage": 35,
+      "mana": 300,
+      "abilityHaste": 15
+    },
+    "passive": "Gain bonus attack damage based on max mana. Transforms into Muramana at max mana.",
+    "buildsInto": []
+  },
+  {
+    "id": "runaans-hurricane",
+    "name": "Runaan's Hurricane",
+    "cost": 2900,
+    "category": "attack",
+    "icon": "runaans-hurricane.png",
+    "stats": {
+      "attackSpeed": 45,
+      "critChance": 25,
+      "movementSpeed": 5
+    },
+    "passive": "Attacks fire bolts at up to 2 additional nearby enemies.",
+    "buildsInto": []
+  },
+  {
+    "id": "seryldas-grudge",
+    "name": "Serylda's Grudge",
+    "cost": 3000,
+    "category": "attack",
+    "icon": "seryldas-grudge.png",
+    "stats": {
+      "attackDamage": 40,
+      "armorPen": 30,
+      "abilityHaste": 20
+    },
+    "passive": "Damaging abilities slow enemies. Grants percentage armor penetration.",
+    "buildsInto": []
+  },
+  {
+    "id": "ludens-echo",
+    "name": "Luden's Echo",
+    "cost": 3000,
+    "category": "magic",
+    "icon": "ludens-echo.png",
+    "stats": {
+      "abilityPower": 85,
+      "abilityHaste": 10,
+      "mana": 300
+    },
+    "passive": "Gains charges while moving and casting; at max charges your next ability deals bonus splash damage.",
+    "buildsInto": []
+  },
+  {
+    "id": "rabadons-deathcap",
+    "name": "Rabadon's Deathcap",
+    "cost": 3500,
+    "category": "magic",
+    "icon": "rabadons-deathcap.png",
+    "stats": {
+      "abilityPower": 120
+    },
+    "passive": "Increases your total ability power by 35%.",
+    "buildsInto": []
+  },
+  {
+    "id": "infinity-orb",
+    "name": "Infinity Orb",
+    "cost": 3150,
+    "category": "magic",
+    "icon": "infinity-orb.png",
+    "stats": {
+      "abilityPower": 65,
+      "health": 200,
+      "magicPen": 15
+    },
+    "passive": "Inevitable Demise: Abilities critically strike for bonus damage against enemies below 35% health.",
+    "buildsInto": []
+  },
+  {
+    "id": "awakened-soulstealer",
+    "name": "Awakened Soulstealer",
+    "cost": 3000,
+    "category": "magic",
+    "icon": "awakened-soulstealer.png",
+    "stats": {
+      "abilityPower": 70,
+      "abilityHaste": 20,
+      "health": 200
+    },
+    "passive": "Champion takedowns refund a portion of your ultimate's remaining cooldown.",
+    "buildsInto": []
+  },
+  {
+    "id": "morellonomicon",
+    "name": "Morellonomicon",
+    "cost": 2700,
+    "category": "magic",
+    "icon": "morellonomicon.png",
+    "stats": {
+      "abilityPower": 75,
+      "health": 150,
+      "magicPen": 15
+    },
+    "passive": "Dealing magic damage applies Grievous Wounds, reducing healing on the target.",
+    "buildsInto": []
+  },
+  {
+    "id": "liandrys-torment",
+    "name": "Liandry's Torment",
+    "cost": 3000,
+    "category": "magic",
+    "icon": "liandrys-torment.png",
+    "stats": {
+      "abilityPower": 75,
+      "health": 250
+    },
+    "passive": "Damaging abilities burn enemies for magic damage over time based on their max health.",
+    "buildsInto": []
+  },
+  {
+    "id": "void-staff",
+    "name": "Void Staff",
+    "cost": 2800,
+    "category": "magic",
+    "icon": "void-staff.png",
+    "stats": {
+      "abilityPower": 65,
+      "magicPen": 40
+    },
+    "passive": "Grants percentage magic penetration.",
+    "buildsInto": []
+  },
+  {
+    "id": "nashors-tooth",
+    "name": "Nashor's Tooth",
+    "cost": 3000,
+    "category": "magic",
+    "icon": "nashors-tooth.png",
+    "stats": {
+      "abilityPower": 70,
+      "attackSpeed": 50,
+      "abilityHaste": 20
+    },
+    "passive": "Attacks deal bonus magic damage scaling with ability power.",
+    "buildsInto": []
+  },
+  {
+    "id": "harmonic-echo",
+    "name": "Harmonic Echo",
+    "cost": 2900,
+    "category": "support",
+    "icon": "harmonic-echo.png",
+    "stats": {
+      "abilityPower": 40,
+      "health": 200,
+      "abilityHaste": 20,
+      "manaRegen": 50
+    },
+    "passive": "Gains charges while moving and casting. At max charges your next heal or shield also heals nearby low-health allies.",
+    "buildsInto": []
+  },
+  {
+    "id": "staff-of-flowing-water",
+    "name": "Staff of Flowing Water",
+    "cost": 2600,
+    "category": "support",
+    "stats": {
+      "abilityPower": 60,
+      "manaRegen": 100,
+      "healShieldPower": 10
+    },
+    "buildPath": [
+      "amplifying-tome",
+      "forbidden-idol"
+    ],
+    "goodAgainst": [
+      "ap-carries"
+    ],
+    "buildWhen": "Enchanter with AP carries (Nami, Seraphine, Sona).",
+    "notes": "Buffed allies get AP + haste.",
+    "icon": "staff-of-flowing-water.png"
+  },
+  {
+    "id": "ardent-censer",
+    "name": "Ardent Censer",
+    "cost": 2600,
+    "category": "support",
+    "stats": {
+      "abilityPower": 60,
+      "healShieldPower": 10
+    },
+    "buildPath": [
+      "amplifying-tome",
+      "forbidden-idol"
+    ],
+    "goodAgainst": [
+      "ad-carries"
+    ],
+    "buildWhen": "Enchanter empowering ADC (Lulu, Sona, Janna).",
+    "notes": "Buffed allies get attack speed + on-hit.",
+    "icon": "ardent-censer.png"
+  },
+  {
+    "id": "protectors-vow",
+    "name": "Protector's Vow",
+    "cost": 2600,
+    "category": "support",
+    "stats": {
+      "armor": 40,
+      "manaRegen": 100,
+      "cooldownReduction": 10
+    },
+    "buildPath": [
+      "chain-vest",
+      "forbidden-idol"
+    ],
+    "goodAgainst": [
+      "ad-assassins"
+    ],
+    "buildWhen": "Enchanters vs dive protecting a carry.",
+    "notes": "Shield on your most-injured ally active.",
+    "inStore": true,
+    "icon": "protectors-vow.png"
+  },
+  {
+    "id": "zeke-convergence",
+    "name": "Zeke's Convergence",
+    "cost": 2800,
+    "category": "support",
+    "icon": "zeke-convergence.png",
+    "stats": {
+      "armor": 40,
+      "health": 350,
+      "mana": 250
+    },
+    "passive": "Harbinger: Casting your ultimate empowers a nearby ally, granting their attacks bonus magic damage.",
+    "buildsInto": []
+  },
+  {
+    "id": "sunfire-aegis",
+    "name": "Sunfire Aegis",
+    "cost": 3000,
+    "category": "defense",
+    "icon": "sunfire-aegis.png",
+    "stats": {
+      "health": 500,
+      "armor": 35,
+      "magicResist": 35
+    },
+    "passive": "Immolate: Taking or dealing damage burns nearby enemies for magic damage over time.",
+    "buildsInto": []
+  },
+  {
+    "id": "thornmail",
+    "name": "Thornmail",
+    "cost": 2900,
+    "category": "defense",
+    "icon": "thornmail.png",
+    "stats": {
+      "armor": 60,
+      "health": 350
+    },
+    "passive": "Thorns: Being attacked reflects damage and applies Grievous Wounds to the attacker.",
+    "buildsInto": []
+  },
+  {
+    "id": "bramble-vest",
+    "name": "Bramble Vest",
+    "cost": 900,
+    "category": "defense",
+    "icon": "bramble-vest.png",
+    "stats": {
+      "armor": 35
+    },
+    "passive": "Thorns: Being attacked reflects magic damage and applies Grievous Wounds to the attacker.",
+    "buildsInto": [
+      "thornmail"
+    ]
+  },
+  {
+    "id": "dead-mans-plate",
+    "name": "Dead Man's Plate",
+    "cost": 2900,
+    "category": "defense",
+    "icon": "dead-mans-plate.png",
+    "stats": {
+      "health": 350,
+      "armor": 45
+    },
+    "passive": "Gains momentum while moving, granting movement speed. At full momentum your next attack deals bonus damage and slows.",
+    "buildsInto": []
+  },
+  {
+    "id": "randuins-omen",
+    "name": "Randuin's Omen",
+    "cost": 2900,
+    "category": "defense",
+    "stats": {
+      "health": 400,
+      "armor": 60
+    },
+    "buildPath": [
+      "wamogs-armguard",
+      "ruby-crystal"
+    ],
+    "goodAgainst": [
+      "crit",
+      "ad-assassins"
+    ],
+    "buildWhen": "Enemies build crit (Jinx, Caitlyn, Yasuo, Tryndamere).",
+    "notes": "Crit damage reduction + slow active.",
+    "icon": "randuins-omen.png"
+  },
+  {
+    "id": "spirit-visage",
+    "name": "Spirit Visage",
+    "cost": 2900,
+    "category": "defense",
+    "stats": {
+      "health": 400,
+      "magicResist": 50,
+      "cooldownReduction": 10
+    },
+    "buildPath": [
+      "spectres-cowl",
+      "ruby-crystal"
+    ],
+    "goodAgainst": [
+      "ap-damage",
+      "poke"
+    ],
+    "buildWhen": "You heal/shield a lot (Mundo, Vlad, Aatrox) vs AP.",
+    "notes": "Boosts healing + shielding received.",
+    "icon": "spirit-visage.png"
+  },
+  {
+    "id": "warmogs-armor",
+    "name": "Warmog's Armor",
+    "cost": 2850,
+    "category": "defense",
+    "stats": {
+      "health": 800,
+      "hpRegen": 200
+    },
+    "buildPath": [
+      "ruby-crystal",
+      "giants-belt"
+    ],
+    "goodAgainst": [
+      "poke"
+    ],
+    "buildWhen": "Sustain between fights for tanks (Braum, Leona, Alistar).",
+    "notes": "Massive out-of-combat regen.",
+    "icon": "warmogs-armor.png"
+  },
+  {
+    "id": "force-of-nature",
+    "name": "Force of Nature",
+    "cost": 2900,
+    "category": "defense",
+    "stats": {
+      "health": 450,
+      "magicResist": 60
+    },
+    "buildPath": [
+      "negatron-cloak",
+      "ruby-crystal"
+    ],
+    "goodAgainst": [
+      "ap-damage"
+    ],
+    "buildWhen": "Heavy AP (Ahri, Brand, Teemo, Zyra).",
+    "notes": "Stacking MR + move speed vs magic damage.",
+    "icon": "force-of-nature.png"
+  },
+  {
+    "id": "abyssal-mask",
+    "name": "Abyssal Mask",
+    "cost": 2800,
+    "category": "defense",
+    "stats": {
+      "health": 350,
+      "magicResist": 45,
+      "mana": 300
+    },
+    "buildPath": [
+      "negatron-cloak",
+      "catalyst"
+    ],
+    "goodAgainst": [
+      "ap-damage"
+    ],
+    "buildWhen": "MR for mana tanks (Singed, Galio, Amumu).",
+    "notes": "Nearby enemies take more magic damage.",
+    "icon": "abyssal-mask.png"
+  },
+  {
+    "id": "plated-steelcaps",
+    "name": "Plated Steelcaps",
+    "cost": 1350,
+    "category": "boots",
+    "icon": "plated-steelcaps.png",
+    "stats": {
+      "armor": 20,
+      "health": 150,
+      "movementSpeed": 45
+    },
+    "passive": "Block: Reduces damage from enemy champion attacks.",
+    "buildsInto": []
+  },
+  {
+    "id": "stasis-enchant",
+    "name": "Stasis Enchant",
+    "cost": 500,
+    "category": "boots",
+    "icon": "stasis-enchant.png",
+    "stats": {},
+    "buildPath": [
+      "gluttonous-greaves"
+    ],
+    "goodAgainst": [
+      "ad-assassins",
+      "burst"
+    ],
+    "buildWhen": "Boot enchant: deny burst ults (Zed R, Sett R, Yasuo R).",
+    "notes": "WR answer to Zhonya — puts you in stasis for 2.5s."
+  },
+  {
+    "id": "mercury-treads",
+    "name": "Mercury's Treads",
+    "cost": 1350,
+    "category": "boots",
+    "icon": "mercury-treads.png",
+    "stats": {
+      "magicResist": 35,
+      "movementSpeed": 45
+    },
+    "passive": "Reduces the duration of crowd control effects (tenacity).",
+    "buildsInto": []
+  },
+  {
+    "id": "gluttonous-greaves",
+    "name": "Gluttonous Greaves",
+    "cost": 1300,
+    "category": "boots",
+    "icon": "gluttonous-greaves.png",
+    "stats": {
+      "movementSpeed": 45,
+      "physicalVamp": 8,
+      "magicalVamp": 8
+    },
+    "passive": "Grants omnivamp — heals for a portion of all damage dealt.",
+    "buildsInto": []
+  },
+  {
+    "id": "ionian-boots-of-lucidity",
+    "name": "Ionian Boots of Lucidity",
+    "cost": 1000,
+    "category": "boots",
+    "icon": "ionian-boots-of-lucidity.png",
+    "stats": {
+      "movementSpeed": 45,
+      "abilityHaste": 15
+    },
+    "passive": "Grants ability haste and reduces summoner spell cooldowns.",
+    "buildsInto": []
+  },
+  {
+    "id": "berserkers-greaves",
+    "name": "Berserker's Greaves",
+    "cost": 1300,
+    "category": "boots",
+    "icon": "berserkers-greaves.png",
+    "stats": {
+      "movementSpeed": 45,
+      "attackSpeed": 35
+    },
+    "passive": "Grants bonus attack speed.",
+    "buildsInto": []
+  },
+  {
+    "id": "maw-of-malmortius",
+    "name": "Maw of Malmortius",
+    "cost": 3000,
+    "category": "defense",
+    "stats": {
+      "attackDamage": 45,
+      "magicResist": 45
+    },
+    "buildPath": [
+      "hexdrinker",
+      "long-sword"
+    ],
+    "goodAgainst": [
+      "ap-assassins",
+      "ap-burst"
+    ],
+    "buildWhen": "AP burst threatens you (Annie, Ahri, Evelynn).",
+    "notes": "Lifeline shield vs magic damage.",
+    "icon": "maw-of-malmortius.png"
+  },
+  {
+    "id": "ravenous-hydra",
+    "name": "Ravenous Hydra",
+    "cost": 3400,
+    "category": "sustain",
+    "stats": {
+      "attackDamage": 65,
+      "vamp": 10
+    },
+    "buildPath": [
+      "tiamat",
+      "vampiric-scepter"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "You want waveclear + sustain (bruisers).",
+    "notes": "Cleave + active burst.",
+    "icon": "ravenous-hydra.png"
+  },
+  {
+    "id": "titanic-hydra",
+    "name": "Titanic Hydra",
+    "cost": 3400,
+    "category": "sustain",
+    "stats": {
+      "attackDamage": 40,
+      "health": 550
+    },
+    "buildPath": [
+      "tiamat",
+      "ruby-crystal"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "Bruisers who want HP + on-hit cleave (Sett, Renekton).",
+    "notes": "HP-scaling cleave damage.",
+    "icon": "titanic-hydra.png"
+  },
+  {
+    "id": "spear-of-shojin",
+    "name": "Spear of Shojin",
+    "cost": 3100,
+    "category": "damage",
+    "stats": {
+      "attackDamage": 55,
+      "health": 400,
+      "cooldownReduction": 20
+    },
+    "buildPath": [
+      "phage",
+      "ruby-crystal"
+    ],
+    "goodAgainst": [
+      "long-fights"
+    ],
+    "buildWhen": "Caster bruisers spamming abilities (Riven, Renekton, Jayce).",
+    "notes": "AH on non-ult abilities + move speed on cast.",
+    "icon": "spear-of-shojin.png"
+  },
+  {
+    "id": "wits-end",
+    "name": "Wit's End",
+    "cost": 2800,
+    "category": "sustain",
+    "stats": {
+      "attackSpeed": 45,
+      "magicResist": 45
+    },
+    "buildPath": [
+      "negatron-cloak",
+      "recurve-bow"
+    ],
+    "goodAgainst": [
+      "ap-damage",
+      "teemo",
+      "kennen"
+    ],
+    "buildWhen": "You auto-attack and need MR (Irelia, Jax, Master Yi).",
+    "notes": "On-hit magic damage + MR.",
+    "icon": "wits-end.png"
+  },
+  {
+    "id": "immortal-shieldbow",
+    "name": "Immortal Shieldbow",
+    "cost": 3200,
+    "category": "sustain",
+    "stats": {
+      "attackDamage": 45,
+      "critChance": 25,
+      "vamp": 8
+    },
+    "buildPath": [
+      "noonquiver",
+      "cloak-of-agility"
+    ],
+    "goodAgainst": [
+      "assassins",
+      "burst"
+    ],
+    "buildWhen": "ADCs who need burst insurance (Samira, Vayne, Xayah).",
+    "notes": "Lifeline shield vs burst.",
+    "icon": "immortal-shieldbow.png"
+  },
+  {
+    "id": "navori-quickblades",
+    "name": "Navori Quickblades",
+    "cost": 3100,
+    "category": "damage",
+    "stats": {
+      "attackDamage": 60,
+      "critChance": 25,
+      "cooldownReduction": 20
+    },
+    "buildPath": [
+      "caulfields-warhammer",
+      "cloak-of-agility"
+    ],
+    "goodAgainst": [
+      "long-fights"
+    ],
+    "buildWhen": "Crit casters (Lucian, Xayah, Tristana).",
+    "notes": "Crit strikes refund non-ult cooldowns.",
+    "icon": "navori-quickblades.png"
+  },
+  {
+    "id": "rapid-firecannon",
+    "name": "Rapid Firecannon",
+    "cost": 2800,
+    "category": "damage",
+    "stats": {
+      "attackSpeed": 35,
+      "critChance": 25
+    },
+    "buildPath": [
+      "kircheis-shard",
+      "cloak-of-agility"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "Need extra range poke (Jhin, Caitlyn, Tristana).",
+    "notes": "Energized range shot.",
+    "icon": "rapid-firecannon.png"
+  },
+  {
+    "id": "statikk-shiv",
+    "name": "Statikk Shiv",
+    "cost": 2900,
+    "category": "damage",
+    "stats": {
+      "attackSpeed": 40,
+      "critChance": 25
+    },
+    "buildPath": [
+      "kircheis-shard",
+      "cloak-of-agility"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "Waveclear + burst on energized crits (Sivir, Vayne).",
+    "notes": "Chain lightning energized proc.",
+    "icon": "statikk-shiv.png"
+  },
+  {
+    "id": "the-collector",
+    "name": "The Collector",
+    "cost": 3000,
+    "category": "damage",
+    "stats": {
+      "attackDamage": 55,
+      "critChance": 25,
+      "lethality": 12
+    },
+    "buildPath": [
+      "serrated-dirk",
+      "cloak-of-agility"
+    ],
+    "goodAgainst": [
+      "low-hp",
+      "sustain"
+    ],
+    "buildWhen": "Execute low-HP targets (Jhin, Samira, Draven).",
+    "notes": "Executes below 5% HP.",
+    "icon": "the-collector.png"
+  },
+  {
+    "id": "gargoyle-enchant",
+    "name": "Gargoyle Enchant",
+    "cost": 500,
+    "category": "boots",
+    "stats": {
+      "armor": 0,
+      "magicResist": 0
+    },
+    "buildPath": [
+      "gluttonous-greaves"
+    ],
+    "goodAgainst": [
+      "mixed-damage"
+    ],
+    "buildWhen": "Boot enchant: huge teamfight shield for tanks.",
+    "notes": "Boot enchant — pair with any T2 boots.",
+    "icon": "gargoyle-enchant.png"
+  },
+  {
+    "id": "frozen-heart",
+    "name": "Frozen Heart",
+    "cost": 2700,
+    "category": "defense",
+    "stats": {
+      "mana": 300,
+      "armor": 70,
+      "cooldownReduction": 20
+    },
+    "buildPath": [
+      "glacial-shroud",
+      "chain-vest"
+    ],
+    "goodAgainst": [
+      "attack-speed",
+      "on-hit"
+    ],
+    "buildWhen": "Enemy team is auto-attack heavy (Vayne, Jax, Master Yi).",
+    "notes": "Attack speed slow aura.",
+    "icon": "frozen-heart.png"
+  },
+  {
+    "id": "turbo-chemtank",
+    "name": "Turbo Chemtank",
+    "cost": 2800,
+    "category": "defense",
+    "stats": {
+      "health": 450,
+      "armor": 35,
+      "magicResist": 35
+    },
+    "buildPath": [
+      "giants-belt",
+      "negatron-cloak"
+    ],
+    "goodAgainst": [
+      "kite-heavy"
+    ],
+    "buildWhen": "Engage tanks need catch potential (Rammus, Amumu, Hecarim).",
+    "notes": "Supersonic active engage.",
+    "icon": "turbo-chemtank.png"
+  },
+  {
+    "id": "iceborn-gauntlet",
+    "name": "Iceborn Gauntlet",
+    "cost": 2800,
+    "category": "defense",
+    "stats": {
+      "mana": 400,
+      "armor": 55,
+      "cooldownRedensity": 0,
+      "cooldownReduction": 20
+    },
+    "buildPath": [
+      "glacial-shroud",
+      "sheen"
+    ],
+    "goodAgainst": [
+      "ad-bruisers"
+    ],
+    "buildWhen": "Tankier trading vs AD (Malphite, Poppy, Braum).",
+    "notes": "Sheen proc + slow field.",
+    "icon": "iceborn-gauntlet.png"
+  },
+  {
+    "id": "rod-of-ages",
+    "name": "Rod of Ages",
+    "cost": 2800,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 60,
+      "health": 300,
+      "mana": 300
+    },
+    "buildPath": [
+      "catalyst",
+      "blasting-wand"
+    ],
+    "goodAgainst": [
+      "scaling"
+    ],
+    "buildWhen": "Scaling mages (Kassadin, Vladimir, Swain).",
+    "notes": "Stacks AP/HP/mana over time.",
+    "icon": "rod-of-ages.png"
+  },
+  {
+    "id": "seraphs-embrace",
+    "name": "Seraph's Embrace",
+    "cost": 3000,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 70,
+      "mana": 600
+    },
+    "buildPath": [
+      "archangels-staff"
+    ],
+    "goodAgainst": [
+      "burst"
+    ],
+    "buildWhen": "Mana-hungry mages needing a shield (Orianna, Syndra, Ryze).",
+    "notes": "Mana-scaling AP + lifeline shield.",
+    "icon": "seraphs-embrace.png"
+  },
+  {
+    "id": "archangels-staff",
+    "name": "Archangel's Staff",
+    "cost": 2800,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 35,
+      "mana": 600
+    },
+    "buildPath": [
+      "tear-of-the-goddess",
+      "needlessly-large-rod"
+    ],
+    "goodAgainst": [
+      "scaling"
+    ],
+    "buildWhen": "Tear stacking into Seraph’s (mages mid).",
+    "notes": "Transforms into Seraph’s Embrace.",
+    "icon": "archangels-staff.png"
+  },
+  {
+    "id": "horizon-focus",
+    "name": "Horizon Focus",
+    "cost": 2800,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 100
+    },
+    "buildPath": [
+      "hextech-alternator",
+      "needlessly-large-rod"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "Long-range mages (Lux, Ziggs, Xerath-style poke).",
+    "notes": "Damaged targets take more damage.",
+    "icon": "horizon-focus.png"
+  },
+  {
+    "id": "cosmic-drive",
+    "name": "Cosmic Drive",
+    "cost": 2800,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 75,
+      "health": 250,
+      "cooldownReduction": 20
+    },
+    "buildPath": [
+      "fiendish-codex",
+      "ruby-crystal"
+    ],
+    "goodAgainst": [
+      "kite-heavy"
+    ],
+    "buildWhen": "Battle mages wanting haste + speed (Gwen, Lillia, Swain).",
+    "notes": "Move speed on spell hits.",
+    "icon": "cosmic-drive.png"
+  },
+  {
+    "id": "lich-bane",
+    "name": "Lich Bane",
+    "cost": 2800,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 80,
+      "moveSpeed": 5,
+      "cooldownReduction": 10
+    },
+    "buildPath": [
+      "sheen",
+      "amplifying-tome"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "Burst on casters who auto (Ekko, Fizz, Diana, Twisted Fate).",
+    "notes": "Spellblade proc.",
+    "icon": "lich-bane.png"
+  },
+  {
+    "id": "crystalline-reflector",
+    "name": "Crystalline Reflector",
+    "cost": 2800,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 60,
+      "armor": 45
+    },
+    "buildPath": [
+      "seekers-armguard",
+      "blasting-wand"
+    ],
+    "goodAgainst": [
+      "ad-assassins"
+    ],
+    "buildWhen": "AP champs vs heavy AD (Gwen, Akali vs Zed/Talon).",
+    "notes": "WR-exclusive: AP + armor + damage reflect.",
+    "icon": "crystalline-reflector.png"
+  },
+  {
+    "id": "oceanids-trident",
+    "name": "Oceanid's Trident",
+    "cost": 2800,
+    "category": "magic",
+    "stats": {
+      "abilityPower": 70,
+      "mana": 200
+    },
+    "buildPath": [
+      "oblivion-orb",
+      "blasting-wand"
+    ],
+    "goodAgainst": [
+      "shield-heavy"
+    ],
+    "buildWhen": "AP vs shields (vs Sett, Janna, Yasuo comps).",
+    "notes": "WR-exclusive: shield-reducing AP item.",
+    "icon": "oceanids-trident.png"
+  },
+  {
+    "id": "amaranths-twinguard",
+    "name": "Amaranth's Twinguard",
+    "cost": 3000,
+    "category": "defense",
+    "stats": {
+      "armor": 55,
+      "magicResist": 55
+    },
+    "buildPath": [
+      "chain-vest",
+      "negatron-cloak"
+    ],
+    "goodAgainst": [
+      "mixed-damage"
+    ],
+    "buildWhen": "Tanks/bruisers teamfighting (Leona, Alistar, Rell).",
+    "notes": "WR-exclusive: resists ramp in combat.",
+    "icon": "amaranths-twinguard.png"
+  },
+  {
+    "id": "dawnshroud",
+    "name": "Dawnshroud",
+    "cost": 2800,
+    "category": "defense",
+    "stats": {
+      "health": 450,
+      "magicResist": 40
+    },
+    "buildPath": [
+      "ruby-crystal",
+      "negatron-cloak"
+    ],
+    "goodAgainst": [
+      "ap-damage",
+      "stealth"
+    ],
+    "buildWhen": "Reveals + damages nearby stealth/invis threats (vs Teemo, Akali, Evelynn).",
+    "notes": "WR-exclusive: proximity reveal + damage.",
+    "icon": "dawnshroud.png"
+  },
+  {
+    "id": "mikaels-blessing",
+    "name": "Mikael's Blessing",
+    "cost": 2500,
+    "category": "support",
+    "stats": {
+      "magicResist": 40,
+      "manaRegen": 100,
+      "healShieldPower": 15
+    },
+    "buildPath": [
+      "negatron-cloak",
+      "forbidden-idol"
+    ],
+    "goodAgainst": [
+      "crowd-control"
+    ],
+    "buildWhen": "Cleanse CC off your carry (vs Ashe, Leona, Nautilus).",
+    "notes": "Active: cleanse + heal.",
+    "icon": "mikaels-blessing.png"
+  },
+  {
+    "id": "hextech-gunblade",
+    "name": "Hextech Gunblade",
+    "cost": 3200,
+    "category": "magic",
+    "stats": {
+      "attackDamage": 40,
+      "abilityPower": 80,
+      "vamp": 10,
+      "magicVamp": 10
+    },
+    "buildPath": [
+      "hexrevolver",
+      "blasting-wand"
+    ],
+    "goodAgainst": [
+      "squishy-comps"
+    ],
+    "buildWhen": "Hybrid burst + sustain (Akali, Jax, Kayle).",
+    "notes": "Hybrid stats + slow active.",
+    "icon": "hextech-gunblade.png"
+  }
+]
